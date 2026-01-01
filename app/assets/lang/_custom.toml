@@ -1,0 +1,23 @@
+# Custom Language File for Launcher Customizer
+
+[ejs.app]
+title = "HS Launcher"
+
+[ejs.landing]
+mediaHomeURL = "#"
+mediaLinkURL = "#"
+mediaMapURL = "#"
+mediaGitHubURL = "#"
+mediaXURL = "#"
+mediaInstagramURL = "#"
+mediaYouTubeURL = "#"
+mediaDiscordURL = "https://discord.gg/H7MB832Tmn"
+
+[ejs.settings]
+sourceGithubLink = "#"
+supportLink = "#"
+
+[ejs.welcome]
+welcomeHeader = "힐링 서버에 오신걸 환영합니다"
+welcomeDescription = "오로지 힐링서버를 위해 급조한 서버 실행기로 예상 못한 버그가 있을 수 있습니다."
+welcomeDescCTA = "편안하고 즐거운 RP"
