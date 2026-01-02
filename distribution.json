@@ -1,1584 +1,1801 @@
 {
-    "version": "1.0.0",
-    "discord": {
-        "clientId": "385581240906022916",
-        "smallImageText": "WesterosCraft",
-        "smallImageKey": "seal-circle"
-    },
-    "java": {
-        "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
-    },
-    "rss": "https://forum.westeroscraft.com/forum/news.2/index.rss",
-    "servers": [
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "1456570033517101138",
+    "smallImageText": "HealingServer Launcher",
+    "smallImageKey": "icon"
+  },
+  "servers": [
+    {
+      "id": "HealingServer-1.20.1",
+      "name": "HealingServer (Minecraft 1.20.1)",
+      "description": "HealingServer Running Minecraft 1.20.1 (Forge v47.4.10)",
+      "icon": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/Icon.png",
+      "version": "0.1",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "HealingServer",
+        "largeImageText": "HealingServer 1.20.1",
+        "largeImageKey": "Background"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
         {
-            "id": "WesterosCraft-1.11.2",
-            "name": "WesterosCraft Production Server",
-            "description": "Main WesterosCraft server. Connect to enter the Realm.",
-            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-prod.png",
-            "version": "3.9.4",
-            "address": "mc.westeroscraft.com",
-            "minecraftVersion": "1.11.2",
-            "discord": {
-                "shortId": "Production",
-                "largeImageText": "WesterosCraft Production Server",
-                "largeImageKey": "server-prod"
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.10",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7398,
+            "MD5": "39c68f8be018557068512f16cf3f97fa",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.10/lowcodelanguage-1.20.1-47.4.10.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.4.10",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16554,
+                "MD5": "eede38b0c090f69c7789cd35e753853d",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/versions/1.20.1-forge-47.4.10/1.20.1-forge-47.4.10.json"
+              }
             },
-            "mainServer": true,
-            "autoconnect": true,
-            "modules": [
-                {
-                    "id": "net.minecraftforge:forge:1.11.2-13.20.1.2429",
-                    "name": "Minecraft Forge",
-                    "type": "ForgeHosted",
-                    "artifact": {
-                        "size": 4450992,
-                        "MD5": "3fcc9b0104f0261397d3cc897e55a1c5",
-                        "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.11.2-13.20.1.2429/forge-1.11.2-13.20.1.2429-universal.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "net.minecraft:launchwrapper:1.12",
-                            "name": "Mojang (LaunchWrapper)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 32999,
-                                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/launchwrapper-1.12.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-all:5.0.3",
-                            "name": "Mojang (ASM)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 241639,
-                                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/asm-all-5.0.3.jar"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-library:2.11.1@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-library)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 1474672,
-                                "MD5": "379c15c4f724421c6d5d7aecedaf87a6",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-library-2.11.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-compiler:2.11.1@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-compiler)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 3076920,
-                                "MD5": "7d89e952f2d5c74577310cd2c28e3f20",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-compiler-2.11.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-actors-migration)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 21324,
-                                "MD5": "04e3428b2600ace33c7ae2bf1f6c0a4c",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-actors-migration_2.11-1.1.0.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-continuations-library)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 7956,
-                                "MD5": "ed9b1d27aba8ac4090a3749c4dfc895a",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-continuations-library_2.11-1.0.2.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-continuations-plugin)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 46140,
-                                "MD5": "a8232db22a72a981de6b1399eb86dff7",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-continuations-plugin_2.11.1-1.0.2.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-parser-combinators)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 85568,
-                                "MD5": "2e50a7df17680daadacca69f07f8a16d",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-parser-combinators_2.11-1.0.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-reflect:2.11.1@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-reflect)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 1070312,
-                                "MD5": "84e5dc81c10e2bd74c579c9d0332fdd9",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-reflect-2.11.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-swing_2.11:1.0.1",
-                            "name": "Minecraft Forge (scala-swing)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 736795,
-                                "MD5": "1d360289e697022a3f57abaad344b28f",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-swing_2.11-1.0.1.jar"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-xml)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 217812,
-                                "MD5": "cc891b094a4c32dedc56bfefe9b072ff",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-xml_2.11-1.0.2.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar.pack.xz",
-                            "name": "Minecraft Forge (akka-actor)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 746612,
-                                "MD5": "25cb22c3078e9fb3f7a861c912924862",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/akka-actor_2.11-2.3.3.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "com.typesafe:config:1.2.1@jar.pack.xz",
-                            "name": "Minecraft Forge (typesafe-config)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 56636,
-                                "MD5": "10ec4ccabc4e68aac9cf87165ead5d7d",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/config-1.2.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "lzma:lzma:0.0.1",
-                            "name": "Mojang (LZMA)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 5762,
-                                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/lzma-0.0.1.jar"
-                            }
-                        },
-                        {
-                            "id": "net.sf.trove4j:trove4j:3.0.3",
-                            "name": "Trove4J",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 2523218,
-                                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/trove4j-3.0.3.jar"
-                            }
-                        },
-                        {
-                            "id": "java3d:vecmath:1.5.2",
-                            "name": "Vecmath",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 318956,
-                                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/vecmath-1.5.2.jar"
-                            }
-                        },
-                        {
-                            "id": "net.sf.jopt-simple:jopt-simple:4.6",
-                            "name": "Jopt-simple",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 62477,
-                                "MD5": "13560a58a79b46b82057686543e8d727",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/jopt-simple-4.6.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:MercuriusUpdater:1.11.2",
-                            "name": "MercuriusUpdater",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 15146,
-                                "MD5": "7556d06064ebbfa3b334a15092d725d0",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/MercuriusUpdater-1.11.2.jar"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "com.westeroscraft:westerosblocks:3.2.0-beta-1-190",
-                    "name": "WesterosBlocks",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 17376788,
-                         "MD5": "370f4f1804c93f498f31af8dac509605",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/WesterosBlocks.jar"
-                    }
-                },
-                {
-                    "id": "com.westeroscraft:westeroscraftrp:2019-01-21",
-                    "name": "WesterosCraft Resource Pack",
-                    "type": "File",
-                    "artifact": {
-                        "size": 46999843,
-                        "MD5": "309eb9e5296e9f55cfecb7d4058245a4",
-                        "path": "resourcepacks/WesterosCraft.zip",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/resourcepacks/WesterosCraft.zip"
-                    }
-                },
-                {
-                    "id": "net.optifine:optifine:1.11.2_HD_U_C7",
-                    "name": "Optifine",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 2254712,
-                        "MD5": "0dd7761e908f9b245bb0dc0fac5649f5",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/OptiFine.jar"
-                    }
-                },
-                {
-                    "id": "mezz:jei:1.11.2-4.5.0.290",
-                    "name": "JustEnoughItems",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 538740,
-                        "MD5": "f4d931f6db6210621a86fa1e7eae8016",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/jei.jar"
-                    }
-                },
-                {
-                    "id": "org.blockartistry:dynsurround:1.11.2-3.4.9.3",
-                    "name": "DynamicSurroundings",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
-                    "artifact": {
-                        "size": 22291385,
-                        "MD5": "65403c66d8b3655b372f58047941d206",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/DynamicSurroundings.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "dsurround.cfg",
-                            "name": "DynamicSurroundings General Configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 20258,
-                                "path": "/config/dsurround/dsurround.cfg",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/config/dsurround/dsurround.cfg"
-                            }
-                        },
-                        {
-                            "id": "westeros.json",
-                            "name": "DynamicSurroundings WesterosCraft Configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 608,
-                                "MD5": "44eab112ff24d0bd29974c270de868ba",
-                                "path": "/config/dsurround/westeros.json",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/config/dsurround/westeros.json"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "octarine-noise:betterfoliage:1.11.2-2.1.10",
-                    "name": "BetterFoliage",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
-                    "artifact": {
-                        "size": 4675903,
-                        "MD5": "522fdf73b6e4343cb6243872fb7b4b6c",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/BetterFoliage.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "betterfoliage.cfg",
-                            "name": "BetterFoliage Configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 7878,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/config/betterfoliage.cfg",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/config/betterfoliage.cfg"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "techbrew:journeymap:1.11.2-5.4.7",
-                    "name": "JourneyMap",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
-                    "artifact": {
-                        "size": 1735525,
-                        "MD5": "1c3380502eb7b9a495581b2402d144df",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/journeymap.jar"
-                    }
-                },
-                {
-                    "id": "com.github.hexomod:worldeditcuife2:2.1.1-mf-1.11.2-13.20.0.2228",
-                    "name": "WorldEditCUI",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
-                    "artifact": {
-                        "size": 461691,
-                        "MD5": "439f82b69f3464969163c188818c677b",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/worldeditcuife.jar"
-                    }
-                },
-                {
-                    "id": "mcp.mobius:waila:1.7.1_1.11.2",
-                    "name": "Waila",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
-                    "artifact": {
-                        "size": 542744,
-                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/Waila.jar"
-                    }
-                },
-                {
-                    "id": "com.mumfrey:liteloader:1.11.2",
-                    "name": "Liteloader",
-                    "type": "LiteLoader",
-                    "required": {
-                        "value": false,
-                        "def": false
-                    },
-                    "artifact": {
-                        "size": 1685422,
-                        "MD5": "3a98b5ed95810bf164e71c1a53be568d",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/liteloader.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "com.mumfrey:macrokeybindmod:0.14.4-1.11.2@litemod",
-                            "name": "Macro/Keybind Mod",
-                            "type": "LiteMod",
-                            "required": {
-                                "value": false,
-                                "def": false
-                            },
-                            "artifact": {
-                                "size": 1670811,
-                                "MD5": "16080785577b391d426c62c8d3138558",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/macrokeybindmod.litemod"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "com.sonicether:seus:11.0",
-                    "name": "Sonic Ether's Unbelievable Shaders",
-                    "type": "File",
-                    "artifact": {
-                        "size": 175159,
-                        "MD5": "bfa8c31d1da8131b59917bb2460205b1",
-                        "path": "shaderpacks/SEUS v11.0.zip",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/shaderpacks/SEUS.zip"
-                    }
-                },
-                {
-                    "id": "options.txt",
-                    "name": "Default Client Options",
-                    "type": "File",
-                    "artifact": {
-                        "size": 1973,
-                        "path": "options.txt",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/options-1.11.2.txt" 
-                    }
-                },
-                {
-                    "id": "servers.dat",
-                    "name": "Saved Client Servers",
-                    "type": "File",
-                    "artifact": {
-                        "size": 84,
-                        "MD5": "71d99e229d7d2b8d2a6423e46832a4b8",
-                        "path": "servers.dat",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/servers.dat" 
-                    }
-                }
-            ]
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.10",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118913,
+                "MD5": "340eb6124a32dab3bfaea8f1b2f3dd02",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.10/fmlcore-1.20.1-47.4.10.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.10",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16854,
+                "MD5": "1193446859d078e83d9fcc4d8a39f44d",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.10/javafmllanguage-1.20.1-47.4.10.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.10",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4999,
+                "MD5": "13e469f44fc6fff975688c6b18f8e9a1",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.10/mclanguage-1.20.1-47.4.10.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.10:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2777708,
+                "MD5": "f202df135ad32fef7e7c42e957c142af",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.10:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4848366,
+                "MD5": "5c4d8867f3152f9c397859436a06321c",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.10",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 267079,
+                "MD5": "9446521da84ab53aa7a81af82d4e854a",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.10/fmlloader-1.20.1-47.4.10.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.10",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170518,
+                "MD5": "828cdcc361baffcdd38d7b7d05c62e35",
+                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.10/fmlearlydisplay-1.20.1-47.4.10.jar"
+              }
+            }
+          ]
         },
         {
-            "id": "WesterosCraftTest-1.11.2",
-            "name": "WesterosCraft Test Server",
-            "description": "Main testing server. Experimental changes are live here.",
-            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-test.png",
-            "version": "3.9.4",
-            "address": "mc.westeroscraft.com:4444",
-            "minecraftVersion": "1.11.2",
-            "discord": {
-                "shortId": "Test Server",
-                "largeImageText": "WesterosCraft Test Server",
-                "largeImageKey": "server-test"
-            },
-            "mainServer": false,
-            "autoconnect": true,
-            "modules": [
-                {
-                    "id": "net.minecraftforge:forge:1.11.2-13.20.1.2476",
-                    "name": "Minecraft Forge",
-                    "type": "ForgeHosted",
-                    "artifact": {
-                        "size": 4455536,
-                        "MD5": "7cef816cc01d53a04a180f0214d2982a",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/forge-1.11.2-13.20.1.2476-universal.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "net.minecraft:launchwrapper:1.12",
-                            "name": "Mojang (LaunchWrapper)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 32999,
-                                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/launchwrapper-1.12.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-all:5.0.3",
-                            "name": "Mojang (ASM)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 241639,
-                                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/asm-all-5.0.3.jar"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-library:2.11.1@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-library)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 1474672,
-                                "MD5": "379c15c4f724421c6d5d7aecedaf87a6",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-library-2.11.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-compiler:2.11.1@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-compiler)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 3076920,
-                                "MD5": "7d89e952f2d5c74577310cd2c28e3f20",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-compiler-2.11.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-actors-migration)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 21324,
-                                "MD5": "04e3428b2600ace33c7ae2bf1f6c0a4c",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-actors-migration_2.11-1.1.0.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-continuations-library)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 7956,
-                                "MD5": "ed9b1d27aba8ac4090a3749c4dfc895a",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-continuations-library_2.11-1.0.2.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-continuations-plugin)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 46140,
-                                "MD5": "a8232db22a72a981de6b1399eb86dff7",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-continuations-plugin_2.11.1-1.0.2.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-parser-combinators)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 85568,
-                                "MD5": "2e50a7df17680daadacca69f07f8a16d",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-parser-combinators_2.11-1.0.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-reflect:2.11.1@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-reflect)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 1070312,
-                                "MD5": "84e5dc81c10e2bd74c579c9d0332fdd9",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-reflect-2.11.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-swing_2.11:1.0.1",
-                            "name": "Minecraft Forge (scala-swing)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 736795,
-                                "MD5": "1d360289e697022a3f57abaad344b28f",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-swing_2.11-1.0.1.jar"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-xml)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 217812,
-                                "MD5": "cc891b094a4c32dedc56bfefe9b072ff",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-xml_2.11-1.0.2.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar.pack.xz",
-                            "name": "Minecraft Forge (akka-actor)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 746612,
-                                "MD5": "25cb22c3078e9fb3f7a861c912924862",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/akka-actor_2.11-2.3.3.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "com.typesafe:config:1.2.1@jar.pack.xz",
-                            "name": "Minecraft Forge (typesafe-config)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 56636,
-                                "MD5": "10ec4ccabc4e68aac9cf87165ead5d7d",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/config-1.2.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "lzma:lzma:0.0.1",
-                            "name": "Mojang (LZMA)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 5762,
-                                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/lzma-0.0.1.jar"
-                            }
-                        },
-                        {
-                            "id": "net.sf.trove4j:trove4j:3.0.3",
-                            "name": "Trove4J",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 2523218,
-                                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/trove4j-3.0.3.jar"
-                            }
-                        },
-                        {
-                            "id": "java3d:vecmath:1.5.2",
-                            "name": "Vecmath",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 318956,
-                                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/vecmath-1.5.2.jar"
-                            }
-                        },
-                        {
-                            "id": "net.sf.jopt-simple:jopt-simple:4.6",
-                            "name": "Jopt-simple",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 62477,
-                                "MD5": "13560a58a79b46b82057686543e8d727",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/jopt-simple-4.6.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:MercuriusUpdater:1.11.2",
-                            "name": "MercuriusUpdater",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 15146,
-                                "MD5": "7556d06064ebbfa3b334a15092d725d0",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/MercuriusUpdater-1.11.2.jar"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "com.westeroscraft:westerosblocks:3.2.0-beta-1-190",
-                    "name": "WesterosBlocks",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 17376788,
-                         "MD5": "370f4f1804c93f498f31af8dac509605",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/WesterosBlocks.jar"
-                    }
-                },
-                {
-                    "id": "com.westeroscraft:westeroscraftrp:2019-01-21",
-                    "name": "WesterosCraft Resource Pack",
-                    "type": "File",
-                    "artifact": {
-                        "size": 46999843,
-                        "MD5": "309eb9e5296e9f55cfecb7d4058245a4",
-                        "path": "resourcepacks/WesterosCraft.zip",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/resourcepacks/WesterosCraft.zip"
-                    }
-                },
-                {
-                    "id": "net.optifine:optifine:1.11.2_HD_U_C7",
-                    "name": "Optifine",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 2254712,
-                        "MD5": "0dd7761e908f9b245bb0dc0fac5649f5",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/OptiFine.jar"
-                    }
-                },
-                {
-                    "id": "mezz:jei:1.11.2-4.5.1.296",
-                    "name": "JustEnoughItems",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 542399,
-                        "MD5": "584b3099d34c9a1b8649385b90831b34",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/jei.jar"
-                    }
-                },
-                {
-                    "id": "org.blockartistry:dynsurround:1.11.2-3.4.9.3",
-                    "name": "DynamicSurroundings",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
-                    "artifact": {
-                        "size": 22291385,
-                        "MD5": "65403c66d8b3655b372f58047941d206",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/DynamicSurroundings.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "dsurround.cfg",
-                            "name": "DynamicSurroundings General Configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 20849,
-                                "path": "/config/dsurround/dsurround.cfg",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/config/dsurround/dsurround.cfg"
-                            }
-                        },
-                        {
-                            "id": "westeros.json",
-                            "name": "DynamicSurroundings WesterosCraft Configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 608,
-                                "MD5": "44eab112ff24d0bd29974c270de868ba",
-                                "path": "/config/dsurround/westeros.json",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/config/dsurround/westeros.json"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "octarine-noise:betterfoliage:1.11.2-2.1.10",
-                    "name": "BetterFoliage",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
-                    "artifact": {
-                        "size": 4675903,
-                        "MD5": "522fdf73b6e4343cb6243872fb7b4b6c",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/BetterFoliage.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "betterfoliage.cfg",
-                            "name": "BetterFoliage Configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 7878,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/config/betterfoliage.cfg",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/config/betterfoliage.cfg"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "techbrew:journeymap:1.11.2-5.5.2",
-                    "name": "JourneyMap",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
-                    "artifact": {
-                        "size": 1799560,
-                        "MD5": "4315e9939bf64bfa963c8674cb13e838",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/journeymap.jar"
-                    }
-                },
-                {
-                    "id": "com.github.hexomod:worldeditcuife2:2.1.2-mf-1.11.2-13.20.0.2228",
-                    "name": "WorldEditCUI",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
-                    "artifact": {
-                        "size": 461696,
-                        "MD5": "53f6eef360af5329d9e52b5351657908",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/worldeditcuife.jar"
-                    }
-                },
-                {
-                    "id": "mcp.mobius:waila:1.7.1_1.11.2",
-                    "name": "Waila",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
-                    "artifact": {
-                        "size": 542744,
-                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/Waila.jar"
-                    }
-                },
-                {
-                    "id": "com.mumfrey:liteloader:1.11.2",
-                    "name": "Liteloader",
-                    "type": "LiteLoader",
-                    "required": {
-                        "value": false,
-                        "def": false
-                    },
-                    "artifact": {
-                        "size": 1685422,
-                        "MD5": "3a98b5ed95810bf164e71c1a53be568d",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/liteloader.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "com.mumfrey:macrokeybindmod:0.14.4-1.11.2@litemod",
-                            "name": "Macro/Keybind Mod",
-                            "type": "LiteMod",
-                            "required": {
-                                "value": false,
-                                "def": false
-                            },
-                            "artifact": {
-                                "size": 1670811,
-                                "MD5": "16080785577b391d426c62c8d3138558",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/macrokeybindmod.litemod"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "com.sonicether:seus:11.0",
-                    "name": "Sonic Ether's Unbelievable Shaders",
-                    "type": "File",
-                    "artifact": {
-                        "size": 175159,
-                        "MD5": "bfa8c31d1da8131b59917bb2460205b1",
-                        "path": "shaderpacks/SEUS v11.0.zip",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/shaderpacks/SEUS.zip"
-                    }
-                },
-                {
-                    "id": "options.txt",
-                    "name": "Default Client Options",
-                    "type": "File",
-                    "artifact": {
-                        "size": 1973,
-                        "path": "options.txt",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/options-1.11.2.txt" 
-                    }
-                },
-                {
-                    "id": "servers.dat",
-                    "name": "Saved Client Servers",
-                    "type": "File",
-                    "artifact": {
-                        "size": 87,
-                        "MD5": "594de6063df993b5fde31c7290226ee4",
-                        "path": "servers.dat",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/servers.dat" 
-                    }
-                }
-            ]
+          "id": "com.github.alexthe666:alexsmobs:1.22.9@jar",
+          "name": "Alex's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 26350793,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/alexsmobs-1.22.9.jar",
+            "MD5": "504050d1f2e2c3019b6f53377ca354c6"
+          }
         },
         {
-            "id": "WesterosCraftTest-1.12.2",
-            "name": "WesterosCraft 1.12.2 Test Server",
-            "description": "Tests for our version change to 1.12.2 are live here.",
-            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-test.png",
-            "version": "4.2.1",
-            "address": "mc.westeroscraft.com:4445",
-            "minecraftVersion": "1.12.2",
-            "discord": {
-                "shortId": "1.12.2 Test Server",
-                "largeImageText": "WesterosCraft 1.12.2 Test Server",
-                "largeImageKey": "server-test"
-            },
-            "mainServer": false,
-            "autoconnect": true,
-            "modules": [
-                {
-                    "id": "net.minecraftforge:forge:1.12.2-14.23.5.2797",
-                    "name": "Minecraft Forge",
-                    "type": "ForgeHosted",
-                    "artifact": {
-                        "size": 4937218,
-                        "MD5": "5320593704af58b3906e7106d27e41c8",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/forge-1.12.2-14.23.5.2797-universal.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "net.minecraft:launchwrapper:1.12",
-                            "name": "Mojang (LaunchWrapper)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 32999,
-                                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/launchwrapper-1.12.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-all:5.2",
-                            "name": "Mojang (ASM)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 247787,
-                                "MD5": "f5ad16c7f0338b541978b0430d51dc83",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/asm-all-5.2.jar"
-                            }
-                        },
-                        {
-                            "id": "jline:jline:2.13",
-                            "name": "Mojang (jline)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 248566,
-                                "MD5": "f251ba666cccb260ff7215b2cbeee8d4",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/jline-2.13.jar"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-library:2.11.1@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-library)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 1474672,
-                                "MD5": "379c15c4f724421c6d5d7aecedaf87a6",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-library-2.11.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-compiler:2.11.1@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-compiler)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 3076920,
-                                "MD5": "7d89e952f2d5c74577310cd2c28e3f20",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-compiler-2.11.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-actors-migration)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 21324,
-                                "MD5": "04e3428b2600ace33c7ae2bf1f6c0a4c",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-actors-migration_2.11-1.1.0.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-continuations-library)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 7956,
-                                "MD5": "ed9b1d27aba8ac4090a3749c4dfc895a",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-continuations-library_2.11-1.0.2.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-continuations-plugin)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 46140,
-                                "MD5": "a8232db22a72a981de6b1399eb86dff7",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-continuations-plugin_2.11.1-1.0.2.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-parser-combinators)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 85568,
-                                "MD5": "2e50a7df17680daadacca69f07f8a16d",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-parser-combinators_2.11-1.0.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-reflect:2.11.1@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-reflect)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 1070312,
-                                "MD5": "84e5dc81c10e2bd74c579c9d0332fdd9",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-reflect-2.11.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-swing_2.11:1.0.1",
-                            "name": "Minecraft Forge (scala-swing)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 736795,
-                                "MD5": "1d360289e697022a3f57abaad344b28f",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-swing_2.11-1.0.1.jar"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-xml)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 217812,
-                                "MD5": "cc891b094a4c32dedc56bfefe9b072ff",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-xml_2.11-1.0.2.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar.pack.xz",
-                            "name": "Minecraft Forge (akka-actor)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 746612,
-                                "MD5": "25cb22c3078e9fb3f7a861c912924862",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/akka-actor_2.11-2.3.3.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "com.typesafe:config:1.2.1@jar.pack.xz",
-                            "name": "Minecraft Forge (typesafe-config)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 56636,
-                                "MD5": "10ec4ccabc4e68aac9cf87165ead5d7d",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/config-1.2.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "lzma:lzma:0.0.1",
-                            "name": "Mojang (LZMA)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 5762,
-                                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/lzma-0.0.1.jar"
-                            }
-                        },
-                        {
-                            "id": "net.sf.trove4j:trove4j:3.0.3",
-                            "name": "Trove4J",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 2523218,
-                                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/trove4j-3.0.3.jar"
-                            }
-                        },
-                        {
-                            "id": "java3d:vecmath:1.5.2",
-                            "name": "Vecmath",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 318956,
-                                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/vecmath-1.5.2.jar"
-                            }
-                        },
-                        {
-                            "id": "net.sf.jopt-simple:jopt-simple:5.0.3",
-                            "name": "Jopt-simple",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 78175,
-                                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/jopt-simple-5.0.3.jar"
-                            }
-                        },
-                        {
-                            "id": "org.apache.maven:maven-artifact:3.5.3",
-                            "name": "maven-artifact",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 54961,
-                                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/maven-artifact-3.5.3.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:MercuriusUpdater:1.12.2",
-                            "name": "MercuriusUpdater",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 15098,
-                                "MD5": "6eb9e61097bee3103a2fdc42746b76a4",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/MercuriusUpdater-1.12.2.jar"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "com.westeroscraft:westerosblocks:4.0.0-beta-1-66",
-                    "name": "WesterosBlocks",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 17286330,
-                         "MD5": "e5c38ef42e9cc4b957122207dcf95f4f",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/WesterosBlocks.jar"
-                    }
-                },
-                {
-                    "id": "com.westeroscraft:westeroscraftrp:2019-01-21",
-                    "name": "WesterosCraft Resource Pack",
-                    "type": "File",
-                    "artifact": {
-                        "size": 47002312,
-                        "MD5": "86b169611ca0e51fdc47384d8423c402",
-                        "path": "resourcepacks/WesterosCraft.zip",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/resourcepacks/WesterosCraft.zip"
-                    }
-                },
-                {
-                    "id": "net.optifine:optifine:1.12.2_HD_U_E3",
-                    "name": "Optifine",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 2444057,
-                        "MD5": "7ec95c57ac1a224d6eb93bd370e4ac37",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/OptiFine.jar"
-                    }
-                },
-                {
-                    "id": "mezz:jei:1.12.2-4.14.3.242",
-                    "name": "JustEnoughItems",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 620682,
-                        "MD5": "ae6d0e6e873ef6c20f41097dc7fee8c6",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/jei.jar"
-                    }
-                },
-                {
-                    "id": "org.blockartistry:dynsurround:1.12.2-3.4.10.5",
-                    "name": "DynamicSurroundings",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
-                    "artifact": {
-                        "size": 22507134,
-                        "MD5": "3d75602c66b7ccfc23c342e8d5e07469",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/DynamicSurroundings.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "dsurround.cfg",
-                            "name": "DynamicSurroundings General Configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 22179,
-                                "path": "/config/dsurround/dsurround.cfg",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/config/dsurround/dsurround.cfg"
-                            }
-                        },
-                        {
-                            "id": "westeros.json",
-                            "name": "DynamicSurroundings WesterosCraft Configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 608,
-                                "MD5": "44eab112ff24d0bd29974c270de868ba",
-                                "path": "/config/dsurround/westeros.json",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/config/dsurround/westeros.json"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "octarine-noise:betterfoliage:1.12-2.2.0",
-                    "name": "BetterFoliage",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
-                    "artifact": {
-                        "size": 926081,
-                        "MD5": "e05a720c5900b9bac4e01179abe8eef6",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/BetterFoliage.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "betterfoliage.cfg",
-                            "name": "BetterFoliage Configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 7878,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/config/betterfoliage.cfg",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/config/betterfoliage.cfg"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "forgelin:forgelin:1.8.2",
-                    "name": "Forgelin",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 5124663,
-                        "MD5": "59035365f7af35f599d1c4baade64d8b",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/Forgelin.jar"
-                    }
-                },
-                {
-                    "id": "techbrew:journeymap:1.12.2-5.5.3",
-                    "name": "JourneyMap",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
-                    "artifact": {
-                        "size": 1831161,
-                        "MD5": "d3b5a672d2393f9fe63903598d50c769",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/journeymap.jar"
-                    }
-                },
-                {
-                    "id": "com.github.hexomod:worldeditcuife2:2.2.0-mf-1.12.2-14.23.5.2768",
-                    "name": "WorldEditCUI",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
-                    "artifact": {
-                        "size": 459294,
-                        "MD5": "2b8c1c3bc48c2d80b71daa658f656edb",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/worldeditcuife.jar"
-                    }
-                },
-                {
-                    "id": "com.mumfrey:liteloader:1.12.2",
-                    "name": "Liteloader",
-                    "type": "LiteLoader",
-                    "required": {
-                        "value": false,
-                        "def": false
-                    },
-                    "artifact": {
-                        "size": 1680383,
-                        "MD5": "1420785ecbfed5aff4a586c5c9dd97eb",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/liteloader.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "com.mumfrey:macrokeybindmod:0.15.4-1.12.1@litemod",
-                            "name": "Macro/Keybind Mod",
-                            "type": "LiteMod",
-                            "required": {
-                                "value": false,
-                                "def": false
-                            },
-                            "artifact": {
-                                "size": 1726452,
-                                "MD5": "9ba3ed960bbb676743a3b6c2e1efc484",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/macrokeybindmod.litemod"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "com.sonicether:seus-renewed:1.0.0",
-                    "name": "Sonic Ether's Unbelievable Shaders Renewed",
-                    "type": "File",
-                    "artifact": {
-                        "size": 7062491,
-                        "MD5": "e68cc9f8ffc8fad66583b9b2cc05356f",
-                        "path": "shaderpacks/SEUS-Renewed.zip",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/shaderpacks/SEUS-Renewed.zip"
-                    }
-                },
-                {
-                    "id": "options.txt",
-                    "name": "Default Client Options",
-                    "type": "File",
-                    "artifact": {
-                        "size": 1973,
-                        "path": "options.txt",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/options-1.12.2.txt" 
-                    }
-                },
-                {
-                    "id": "servers.dat",
-                    "name": "Saved Client Servers",
-                    "type": "File",
-                    "artifact": {
-                        "size": 87,
-                        "MD5": "64dc1db90935997f07dfac422206f1de",
-                        "path": "servers.dat",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/servers.dat" 
-                    }
-                }
-            ]
+          "id": "com.teammetallurgy:aquaculture:2.5.7@jar",
+          "name": "Aquaculture 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 601839,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/Aquaculture-1.20.1-2.5.7.jar",
+            "MD5": "f39d02c30d59ec516e3221f9f7643909"
+          }
         },
         {
-            "id": "WesterosCraftTest-1.13.2",
-            "name": "WesterosCraft 1.13.2 Test Server",
-            "description": "Tests for our version change to 1.13.2 are live here.",
-            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-test.png",
-            "version": "5.0.0",
-            "address": "mc.westeroscraft.com:4445",
-            "minecraftVersion": "1.13.2",
-            "discord": {
-                "shortId": "1.13.2 Test Server",
-                "largeImageText": "WesterosCraft 1.13.2 Test Server",
-                "largeImageKey": "server-test"
-            },
-            "mainServer": false,
-            "autoconnect": false,
-            "modules": [
-                {
-                    "id": "net.minecraftforge:forge:1.13.2-25.0.219",
-                    "name": "Minecraft Forge (base jar)",
-                    "type": "ForgeHosted",
-                    "artifact": {
-                        "size": 159918,
-                        "MD5": "c5a9c40711feb2b4ab0329c48256e30d",
-                        "url": ""
-                    },
-                    "subModules": [
-                        {
-                            "id": "net.minecraftforge:forge:1.13.2-25.0.219:universal",
-                            "name": "Minecraft Forge (universal jar)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 2343272 ,
-                                "MD5": "338c495d266da44ac1955caf91cc14c4",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:forge:1.13.2-25.0.219:client",
-                            "name": "Minecraft Forge (client jar)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 3065519,
-                                "MD5": "df63f7288a8118c9b8836a3e53827aac",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "net.minecraft:client:1.13.2:extra",
-                            "name": "Minecraft Forge (client extra)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 9622361,
-                                "MD5": "dc66e2219e3de6e7ca05847fd3c7746d",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "net.minecraft:client:1.13.2-20190213.203750:srg",
-                            "name": "Minecraft Forge (client srg)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 8198877,
-                                "MD5": "80f355cffe270d2c2943301b96d98fa6",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "1.13.2-forge-25.0.219",
-                            "name": "Minecraft Forge (version.json)",
-                            "type": "VersionManifest",
-                            "artifact": {
-                                "size": 11511,
-                                "MD5": "f13f9e20324d0a55c646d5fb8876b2bb",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "com.paulscode:soundsystem:201809301515",
-                            "name": "Minecraft Forge (Paul's Code Soundsystem)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 66607,
-                                "MD5": "bf43e7b9f628534614b3fc5e4e69d209",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm:6.2",
-                            "name": "Minecraft Forge (asm)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 111214,
-                                "MD5": "7abdce94068615d690495f45eb6eb980",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-commons:6.2",
-                            "name": "Minecraft Forge (asm-commons)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 78919,
-                                "MD5": "a031c9a32770c02c2f91d2bcbeceabcd",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-tree:6.2",
-                            "name": "Minecraft Forge (asm-tree)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 50370,
-                                "MD5": "e7279981c6764dcd73a99705acf5c9a6",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "cpw.mods:modlauncher:2.1.1",
-                            "name": "Minecraft Forge (modlauncher)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 101586,
-                                "MD5": "089ae3cf5afe10e96bb930b70dd99402",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "cpw.mods:grossjava9hacks:1.1.0",
-                            "name": "Minecraft Forge (Gross Java 9 Hacks)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 1759,
-                                "MD5": "1adde27730734a786f461ed048d440a0",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:accesstransformers:0.16.0-shadowed",
-                            "name": "Minecraft Forge (Access Transformers)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 444428,
-                                "MD5": "dbe346d662c7bdff0988f941342932e6",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:eventbus:0.9.2-service",
-                            "name": "Minecraft Forge (EventBus)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 38908,
-                                "MD5": "77c6c079914a8369a185e11ae1a7a878",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:forgespi:0.13.0",
-                            "name": "Minecraft Forge (Forge SPI)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 16607,
-                                "MD5": "5634ba7001f8501a2b553430e2068751",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:coremods:0.5.0",
-                            "name": "Minecraft Forge (coremods)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 12284,
-                                "MD5": "d3da5879965cf6f37413d6d1a80d92a7",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:unsafe:0.2.0",
-                            "name": "Minecraft Forge (unsafe)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 2834,
-                                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "com.electronwill.night-config:core:3.6.0",
-                            "name": "Minecraft Forge (night-config core)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 199763,
-                                "MD5": "841adeca8f5e5e092c7bafb412dcb615",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "com.electronwill.night-config:toml:3.6.0",
-                            "name": "Minecraft Forge (night-config toml)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 31256,
-                                "MD5": "2d1d5f1fa4735b4e654613b493512432",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "org.jline:jline:3.9.0",
-                            "name": "Minecraft Forge (jline)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 707273,
-                                "MD5": "2db9aae140f810a72fc4a5cb5aa5cf9b",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "org.apache.maven:maven-artifact:3.6.0",
-                            "name": "Minecraft Forge (maven-artifact)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 55051,
-                                "MD5": "89e95013b11f347e48c0525965600404",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "net.jodah:typetools:0.6.0",
-                            "name": "Minecraft Forge (typetools)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 14734,
-                                "MD5": "9f65b6e90eb986fe25afc39b8ed3f43b",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "java3d:vecmath:1.5.2",
-                            "name": "Minecraft Forge (vecmath)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 318956,
-                                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "org.apache.logging.log4j:log4j-api:2.11.2",
-                            "name": "Minecraft Forge (log4j-api)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 266283,
-                                "MD5": "3f7ee51e3dd0830de799dae0b90243dd",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "org.apache.logging.log4j:log4j-core:2.11.2",
-                            "name": "Minecraft Forge (log4j-core)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 1629585,
-                                "MD5": "c8bd8b5c5aaaa07a3dcbf57de01c9266",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "net.minecrell:terminalconsoleappender:1.1.1",
-                            "name": "Minecraft Forge (terminalconsoleappender)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 15240,
-                                "MD5": "a190e88073a41dfa1b1d47854c41230b",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
-                            "name": "Minecraft Forge (jopt-simple)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 78146,
-                                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
-                                "url": ""
-                            }
-                        }
-                        
-                    ]
-                },
-                {
-                    "id": "squeek:appleskin:1.0.11",
-                    "name": "AppleSkin (test mod)",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 27382,
-                         "MD5": "a1c0cfed77b2cb7b6699e59ba0252a50",
-                        "url": ""
-                    }
-                },
-                {
-                    "id": "com.blamejared:controlling:4.0.1",
-                    "name": "Controlling (Test Mod)",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 34914,
-                         "MD5": "b4dc10b9039518ce00845ca962e6a136",
-                        "url": ""
-                    }
-                }
-            ]
+          "id": "biomesoplenty.forge.core:biomesoplenty:19.0.0.96@jar",
+          "name": "Biomes O' Plenty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 22381010,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
+            "MD5": "886b3d33f1e7dca2a937ec5c5dc19af8"
+          }
+        },
+        {
+          "id": "dev.yurisuika:blossom:1.0.7@jar",
+          "name": "Blossom",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 60615,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/blossom-forge-1.20.1-1.0.7.jar",
+            "MD5": "333e5a14e1b569442c7a7de7468089b7"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre36@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2613393,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/cfm-forge-1.20.1-7.0.0-pre36.jar",
+            "MD5": "faf78627dad9c9c04e7a4fa8992c54dc"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:2.6.2@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3185379,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/citadel-2.6.2-1.20.1.jar",
+            "MD5": "f027b4f6862b99a1e0516353fb3ef0fc"
+          }
+        },
+        {
+          "id": "noppes.npcs:customnpcs:1.20.1.20251031@jar",
+          "name": "Custom NPCs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10808462,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/CustomNPCs-1.20.1-GBPort-Unofficial-20251031.jar",
+            "MD5": "9f368c11f324dfc1292a37fbbed1b473"
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.2.9@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2978080,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.2.9.jar",
+            "MD5": "71e177a98e0e6f399761ad00e978d177"
+          }
+        },
+        {
+          "id": "glitchcore:glitchcore:0.0.1.1@jar",
+          "name": "GlitchCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 87550,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+            "MD5": "6d24b09db12acdab40437a1929259352"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan.koreanpatch.client:koreanpatch:1.9.5+mc1.20.1@jar",
+          "name": "Korean Patch",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 316542,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/koreanpatch-forge-1.9.5+mc1.20.1.jar",
+            "MD5": "b7c99a33c48f6ae31de7f7f6038800c2"
+          }
+        },
+        {
+          "id": "terrablender.core:terrablender:3.0.1.10@jar",
+          "name": "TerraBlender",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 107532,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/TerraBlender-forge-1.20.1-3.0.1.10.jar",
+            "MD5": "9d8e305b95ae5a8f7b446d6346324267"
+          }
+        },
+        {
+          "id": "de.maxhenkel.voicechat:voicechat:1.20.1-2.6.10@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4892021,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.6.10.jar",
+            "MD5": "cd6ce236a50f8a4a0ceeb7d961aef4d0"
+          }
+        },
+        {
+          "id": "alligator_snapping_turtle_spawns.json",
+          "name": "alligator_snapping_turtle_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 754,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/alligator_snapping_turtle_spawns.json",
+            "MD5": "e880e0c7e38986fb1f7a8885a892b0fc",
+            "path": "config/alexsmobs/alligator_snapping_turtle_spawns.json"
+          }
+        },
+        {
+          "id": "anaconda_spawns.json",
+          "name": "anaconda_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1036,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/anaconda_spawns.json",
+            "MD5": "74d2b1bc857e9acb8321f296567a8f7f",
+            "path": "config/alexsmobs/anaconda_spawns.json"
+          }
+        },
+        {
+          "id": "anteater_spawns.json",
+          "name": "anteater_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1166,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/anteater_spawns.json",
+            "MD5": "2040bb544aff0345a335fd895cd0022c",
+            "path": "config/alexsmobs/anteater_spawns.json"
+          }
+        },
+        {
+          "id": "bald_eagle_spawns.json",
+          "name": "bald_eagle_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 2723,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/bald_eagle_spawns.json",
+            "MD5": "dd9229ac98bbf83a1309d4b1e3770fd5",
+            "path": "config/alexsmobs/bald_eagle_spawns.json"
+          }
+        },
+        {
+          "id": "banana_slug_spawns.json",
+          "name": "banana_slug_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1697,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/banana_slug_spawns.json",
+            "MD5": "6aec0b8dd4904343a50e7fb0a37b2912",
+            "path": "config/alexsmobs/banana_slug_spawns.json"
+          }
+        },
+        {
+          "id": "bison_spawns.json",
+          "name": "bison_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1761,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/bison_spawns.json",
+            "MD5": "729766841964832662fb610b6a661dc4",
+            "path": "config/alexsmobs/bison_spawns.json"
+          }
+        },
+        {
+          "id": "blobfish_spawns.json",
+          "name": "blobfish_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 146,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/blobfish_spawns.json",
+            "MD5": "ad3201c8f95a758dbe8496d677756a5e",
+            "path": "config/alexsmobs/blobfish_spawns.json"
+          }
+        },
+        {
+          "id": "blue_jay_spawns.json",
+          "name": "blue_jay_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 4020,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/blue_jay_spawns.json",
+            "MD5": "9b797aa57e7c173d5e4a8f034f267dff",
+            "path": "config/alexsmobs/blue_jay_spawns.json"
+          }
+        },
+        {
+          "id": "bone_serpent_spawns.json",
+          "name": "bone_serpent_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 257,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/bone_serpent_spawns.json",
+            "MD5": "7f0b198410364ba04743be1a24f901db",
+            "path": "config/alexsmobs/bone_serpent_spawns.json"
+          }
+        },
+        {
+          "id": "bunfungus_spawns.json",
+          "name": "bunfungus_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 486,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/bunfungus_spawns.json",
+            "MD5": "e585908f8d3914a77836461f2f136848",
+            "path": "config/alexsmobs/bunfungus_spawns.json"
+          }
+        },
+        {
+          "id": "cachalot_whale_beached_spawns.json",
+          "name": "cachalot_whale_beached_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 642,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/cachalot_whale_beached_spawns.json",
+            "MD5": "b779f228a334a5be8eaa5f845664105c",
+            "path": "config/alexsmobs/cachalot_whale_beached_spawns.json"
+          }
+        },
+        {
+          "id": "cachalot_whale_spawns.json",
+          "name": "cachalot_whale_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 893,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/cachalot_whale_spawns.json",
+            "MD5": "53158516acce1c7ce2d05e0a61ff5965",
+            "path": "config/alexsmobs/cachalot_whale_spawns.json"
+          }
+        },
+        {
+          "id": "caiman_spawns.json",
+          "name": "caiman_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 291,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/caiman_spawns.json",
+            "MD5": "0443b3f49eb26ce302434cf0af666b90",
+            "path": "config/alexsmobs/caiman_spawns.json"
+          }
+        },
+        {
+          "id": "capuchin_monkey_spawns.json",
+          "name": "capuchin_monkey_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1184,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/capuchin_monkey_spawns.json",
+            "MD5": "61f854072c18a0b127bb37c01b33a0ae",
+            "path": "config/alexsmobs/capuchin_monkey_spawns.json"
+          }
+        },
+        {
+          "id": "catfish_spawns.json",
+          "name": "catfish_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1097,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/catfish_spawns.json",
+            "MD5": "f0234087612d8035344fbfb634cebfa9",
+            "path": "config/alexsmobs/catfish_spawns.json"
+          }
+        },
+        {
+          "id": "cave_centipede_spawns.json",
+          "name": "cave_centipede_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 2200,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/cave_centipede_spawns.json",
+            "MD5": "a6fcbacb06418e1c951695b0f4919f13",
+            "path": "config/alexsmobs/cave_centipede_spawns.json"
+          }
+        },
+        {
+          "id": "cockroach_spawns.json",
+          "name": "cockroach_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 2085,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/cockroach_spawns.json",
+            "MD5": "4b8fb651c60044198150aa49c4193dcc",
+            "path": "config/alexsmobs/cockroach_spawns.json"
+          }
+        },
+        {
+          "id": "comb_jelly_spawns.json",
+          "name": "comb_jelly_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 414,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/comb_jelly_spawns.json",
+            "MD5": "e9fa2345daa80ad12a849fe96ea656f9",
+            "path": "config/alexsmobs/comb_jelly_spawns.json"
+          }
+        },
+        {
+          "id": "cosmaw_spawns.json",
+          "name": "cosmaw_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 371,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/cosmaw_spawns.json",
+            "MD5": "99ec85d1693bdd51d1970b9bfba84267",
+            "path": "config/alexsmobs/cosmaw_spawns.json"
+          }
+        },
+        {
+          "id": "cosmic_cod_spawns.json",
+          "name": "cosmic_cod_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 139,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/cosmic_cod_spawns.json",
+            "MD5": "84b1c3b63a2e5656da5478c844a5ad49",
+            "path": "config/alexsmobs/cosmic_cod_spawns.json"
+          }
+        },
+        {
+          "id": "crimson_mosquito_spawns.json",
+          "name": "crimson_mosquito_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 785,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/crimson_mosquito_spawns.json",
+            "MD5": "0c095c6657c6df75653ab9a0b049b4e1",
+            "path": "config/alexsmobs/crimson_mosquito_spawns.json"
+          }
+        },
+        {
+          "id": "crocodile_spawns.json",
+          "name": "crocodile_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1007,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/crocodile_spawns.json",
+            "MD5": "062f820f53eee3c3a4eed7621a4d96c3",
+            "path": "config/alexsmobs/crocodile_spawns.json"
+          }
+        },
+        {
+          "id": "crow_spawns.json",
+          "name": "crow_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 5146,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/crow_spawns.json",
+            "MD5": "607a09f65c8023448ad7828e29bde4e6",
+            "path": "config/alexsmobs/crow_spawns.json"
+          }
+        },
+        {
+          "id": "devils_hole_pupfish_spawns.json",
+          "name": "devils_hole_pupfish_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/devils_hole_pupfish_spawns.json",
+            "MD5": "2c88b50ebef0c2d8cefd7fec53cc1b31",
+            "path": "config/alexsmobs/devils_hole_pupfish_spawns.json"
+          }
+        },
+        {
+          "id": "dropbear_spawns.json",
+          "name": "dropbear_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 403,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/dropbear_spawns.json",
+            "MD5": "95aa6694d6dd2f14fcfcedc28f5698e9",
+            "path": "config/alexsmobs/dropbear_spawns.json"
+          }
+        },
+        {
+          "id": "elephant_spawns.json",
+          "name": "elephant_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1163,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/elephant_spawns.json",
+            "MD5": "1032996d6a2cac873766f7a443d44810",
+            "path": "config/alexsmobs/elephant_spawns.json"
+          }
+        },
+        {
+          "id": "emu_spawns.json",
+          "name": "emu_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1661,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/emu_spawns.json",
+            "MD5": "3eb32cae8d7825df19055f0b673481ec",
+            "path": "config/alexsmobs/emu_spawns.json"
+          }
+        },
+        {
+          "id": "endergrade_spawns.json",
+          "name": "endergrade_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 250,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/endergrade_spawns.json",
+            "MD5": "fe07337e303bd453f45f00ec63fa9c0a",
+            "path": "config/alexsmobs/endergrade_spawns.json"
+          }
+        },
+        {
+          "id": "enderiophage_spawns.json",
+          "name": "enderiophage_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 603,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/enderiophage_spawns.json",
+            "MD5": "4ab64e4848a83c605d54ade54fdf0702",
+            "path": "config/alexsmobs/enderiophage_spawns.json"
+          }
+        },
+        {
+          "id": "farseer.json",
+          "name": "farseer.json",
+          "type": "File",
+          "artifact": {
+            "size": 266,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/farseer.json",
+            "MD5": "337b5b31ce112b2c614749d2e1047254",
+            "path": "config/alexsmobs/farseer.json"
+          }
+        },
+        {
+          "id": "flutter_spawns.json",
+          "name": "flutter_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 147,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/flutter_spawns.json",
+            "MD5": "1ab7408c8c7997d1ca595bdaa531820b",
+            "path": "config/alexsmobs/flutter_spawns.json"
+          }
+        },
+        {
+          "id": "flying_fish_spawns.json",
+          "name": "flying_fish_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 716,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/flying_fish_spawns.json",
+            "MD5": "7bf21cd1ccc1499470e52d91402a899f",
+            "path": "config/alexsmobs/flying_fish_spawns.json"
+          }
+        },
+        {
+          "id": "fly_spawns.json",
+          "name": "fly_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/fly_spawns.json",
+            "MD5": "2c88b50ebef0c2d8cefd7fec53cc1b31",
+            "path": "config/alexsmobs/fly_spawns.json"
+          }
+        },
+        {
+          "id": "frilled_shark_spawns.json",
+          "name": "frilled_shark_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 146,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/frilled_shark_spawns.json",
+            "MD5": "ad3201c8f95a758dbe8496d677756a5e",
+            "path": "config/alexsmobs/frilled_shark_spawns.json"
+          }
+        },
+        {
+          "id": "froststalker_spawns.json",
+          "name": "froststalker_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 934,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/froststalker_spawns.json",
+            "MD5": "2a017b04fa69a371da739dca3dccfaeb",
+            "path": "config/alexsmobs/froststalker_spawns.json"
+          }
+        },
+        {
+          "id": "gazelle_spawns.json",
+          "name": "gazelle_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1050,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/gazelle_spawns.json",
+            "MD5": "397912ee2f4758bf87c6e017fc8c3dc0",
+            "path": "config/alexsmobs/gazelle_spawns.json"
+          }
+        },
+        {
+          "id": "gelada_monkey_spawns.json",
+          "name": "gelada_monkey_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1001,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/gelada_monkey_spawns.json",
+            "MD5": "c229e44c5b5bd924b2449149c1fabac7",
+            "path": "config/alexsmobs/gelada_monkey_spawns.json"
+          }
+        },
+        {
+          "id": "giant_squid_spawns.json",
+          "name": "giant_squid_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 146,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/giant_squid_spawns.json",
+            "MD5": "ad3201c8f95a758dbe8496d677756a5e",
+            "path": "config/alexsmobs/giant_squid_spawns.json"
+          }
+        },
+        {
+          "id": "gorilla_spawns.json",
+          "name": "gorilla_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1053,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/gorilla_spawns.json",
+            "MD5": "803b7292137cbeece7aaa1d69e04b5b2",
+            "path": "config/alexsmobs/gorilla_spawns.json"
+          }
+        },
+        {
+          "id": "grizzly_bear_spawns.json",
+          "name": "grizzly_bear_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 4020,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/grizzly_bear_spawns.json",
+            "MD5": "9b797aa57e7c173d5e4a8f034f267dff",
+            "path": "config/alexsmobs/grizzly_bear_spawns.json"
+          }
+        },
+        {
+          "id": "guster_spawns.json",
+          "name": "guster_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1132,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/guster_spawns.json",
+            "MD5": "9f7fac3c24c356a767bce153106054dd",
+            "path": "config/alexsmobs/guster_spawns.json"
+          }
+        },
+        {
+          "id": "hammerhead_shark_spawns.json",
+          "name": "hammerhead_shark_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 254,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/hammerhead_shark_spawns.json",
+            "MD5": "3e1c6fd6a63f92c5784cd66565dfb1f7",
+            "path": "config/alexsmobs/hammerhead_shark_spawns.json"
+          }
+        },
+        {
+          "id": "hummingbird_spawns.json",
+          "name": "hummingbird_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 3029,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/hummingbird_spawns.json",
+            "MD5": "4ab2f69a298dba2dd6de993426aa1642",
+            "path": "config/alexsmobs/hummingbird_spawns.json"
+          }
+        },
+        {
+          "id": "jerboa_spawns.json",
+          "name": "jerboa_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1252,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/jerboa_spawns.json",
+            "MD5": "1e43a85b07df2edeaed6affb2eb06eb5",
+            "path": "config/alexsmobs/jerboa_spawns.json"
+          }
+        },
+        {
+          "id": "kangaroo_spawns.json",
+          "name": "kangaroo_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1661,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/kangaroo_spawns.json",
+            "MD5": "3eb32cae8d7825df19055f0b673481ec",
+            "path": "config/alexsmobs/kangaroo_spawns.json"
+          }
+        },
+        {
+          "id": "komodo_dragon_spawns.json",
+          "name": "komodo_dragon_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 775,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/komodo_dragon_spawns.json",
+            "MD5": "bb0e841a9cf2784c27209ab46af2ab58",
+            "path": "config/alexsmobs/komodo_dragon_spawns.json"
+          }
+        },
+        {
+          "id": "laviathan_spawns.json",
+          "name": "laviathan_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 142,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/laviathan_spawns.json",
+            "MD5": "477bc268eb72dc151845a22729de3fe8",
+            "path": "config/alexsmobs/laviathan_spawns.json"
+          }
+        },
+        {
+          "id": "leafcutter_anthill_spawns.json",
+          "name": "leafcutter_anthill_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1166,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/leafcutter_anthill_spawns.json",
+            "MD5": "2040bb544aff0345a335fd895cd0022c",
+            "path": "config/alexsmobs/leafcutter_anthill_spawns.json"
+          }
+        },
+        {
+          "id": "lobster_spawns.json",
+          "name": "lobster_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 398,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/lobster_spawns.json",
+            "MD5": "3284cadc1438c85425a3621a016e6eba",
+            "path": "config/alexsmobs/lobster_spawns.json"
+          }
+        },
+        {
+          "id": "maned_wolf_spawns.json",
+          "name": "maned_wolf_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1037,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/maned_wolf_spawns.json",
+            "MD5": "c21feac193fa689955ac90f659e1f0c2",
+            "path": "config/alexsmobs/maned_wolf_spawns.json"
+          }
+        },
+        {
+          "id": "mantis_shrimp_spawns.json",
+          "name": "mantis_shrimp_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 385,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/mantis_shrimp_spawns.json",
+            "MD5": "c0a4157361a392c8a4d4e32d95bcc46f",
+            "path": "config/alexsmobs/mantis_shrimp_spawns.json"
+          }
+        },
+        {
+          "id": "mimicube_spawns.json",
+          "name": "mimicube_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 365,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/mimicube_spawns.json",
+            "MD5": "5dfd54d2860bbecb3d63d3a0cbc42752",
+            "path": "config/alexsmobs/mimicube_spawns.json"
+          }
+        },
+        {
+          "id": "mimic_octopus_spawns.json",
+          "name": "mimic_octopus_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 373,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/mimic_octopus_spawns.json",
+            "MD5": "468f301a2a863dc3c56c0dffc967fb73",
+            "path": "config/alexsmobs/mimic_octopus_spawns.json"
+          }
+        },
+        {
+          "id": "moose_spawns.json",
+          "name": "moose_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 2291,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/moose_spawns.json",
+            "MD5": "9352df8e11cc9d6c49756868320ff3bb",
+            "path": "config/alexsmobs/moose_spawns.json"
+          }
+        },
+        {
+          "id": "mudskipper_spawns.json",
+          "name": "mudskipper_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 291,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/mudskipper_spawns.json",
+            "MD5": "0443b3f49eb26ce302434cf0af666b90",
+            "path": "config/alexsmobs/mudskipper_spawns.json"
+          }
+        },
+        {
+          "id": "mungus_spawns.json",
+          "name": "mungus_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 486,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/mungus_spawns.json",
+            "MD5": "e585908f8d3914a77836461f2f136848",
+            "path": "config/alexsmobs/mungus_spawns.json"
+          }
+        },
+        {
+          "id": "murmur.json",
+          "name": "murmur.json",
+          "type": "File",
+          "artifact": {
+            "size": 2200,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/murmur.json",
+            "MD5": "a6fcbacb06418e1c951695b0f4919f13",
+            "path": "config/alexsmobs/murmur.json"
+          }
+        },
+        {
+          "id": "orca_spawns.json",
+          "name": "orca_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 255,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/orca_spawns.json",
+            "MD5": "7c9a514102d327b8d9ba16b19a991049",
+            "path": "config/alexsmobs/orca_spawns.json"
+          }
+        },
+        {
+          "id": "platypus_spawns.json",
+          "name": "platypus_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 625,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/platypus_spawns.json",
+            "MD5": "058a3971fb93597c04c1769bfe265fb9",
+            "path": "config/alexsmobs/platypus_spawns.json"
+          }
+        },
+        {
+          "id": "potoo_spawns.json",
+          "name": "potoo_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 148,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/potoo_spawns.json",
+            "MD5": "d1511fa5b0562676dab091599bc838a2",
+            "path": "config/alexsmobs/potoo_spawns.json"
+          }
+        },
+        {
+          "id": "raccoon_spawns.json",
+          "name": "raccoon_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 3712,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/raccoon_spawns.json",
+            "MD5": "ef2fd8cf69fc21a78c45e79c1a1bf5a7",
+            "path": "config/alexsmobs/raccoon_spawns.json"
+          }
+        },
+        {
+          "id": "rain_frog_spawns.json",
+          "name": "rain_frog_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1252,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/rain_frog_spawns.json",
+            "MD5": "1e43a85b07df2edeaed6affb2eb06eb5",
+            "path": "config/alexsmobs/rain_frog_spawns.json"
+          }
+        },
+        {
+          "id": "rattlesnake_spawns.json",
+          "name": "rattlesnake_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1646,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/rattlesnake_spawns.json",
+            "MD5": "c9f3ffa55ec8cc5d57ed9a8bcb0ea1fe",
+            "path": "config/alexsmobs/rattlesnake_spawns.json"
+          }
+        },
+        {
+          "id": "rhinoceros_spawns.json",
+          "name": "rhinoceros_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1050,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/rhinoceros_spawns.json",
+            "MD5": "397912ee2f4758bf87c6e017fc8c3dc0",
+            "path": "config/alexsmobs/rhinoceros_spawns.json"
+          }
+        },
+        {
+          "id": "roadrunner_spawns.json",
+          "name": "roadrunner_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1646,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/roadrunner_spawns.json",
+            "MD5": "c9f3ffa55ec8cc5d57ed9a8bcb0ea1fe",
+            "path": "config/alexsmobs/roadrunner_spawns.json"
+          }
+        },
+        {
+          "id": "rocky_roller_spawns.json",
+          "name": "rocky_roller_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 673,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/rocky_roller_spawns.json",
+            "MD5": "7f40733890dcc5279c2addea737b4b80",
+            "path": "config/alexsmobs/rocky_roller_spawns.json"
+          }
+        },
+        {
+          "id": "seagull_spawns.json",
+          "name": "seagull_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1296,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/seagull_spawns.json",
+            "MD5": "477c8512be58a4c7cadbc3ea65c3642a",
+            "path": "config/alexsmobs/seagull_spawns.json"
+          }
+        },
+        {
+          "id": "seal_spawns.json",
+          "name": "seal_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 877,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/seal_spawns.json",
+            "MD5": "001c3ef108fd4fa9766fc80441edeb04",
+            "path": "config/alexsmobs/seal_spawns.json"
+          }
+        },
+        {
+          "id": "shoebill_spawns.json",
+          "name": "shoebill_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 623,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/shoebill_spawns.json",
+            "MD5": "7e9b29c6eba19484a234ee300f2dea69",
+            "path": "config/alexsmobs/shoebill_spawns.json"
+          }
+        },
+        {
+          "id": "skelewag_spawns.json",
+          "name": "skelewag_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 374,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/skelewag_spawns.json",
+            "MD5": "b848bd81bc3b313dba92f2743bc27643",
+            "path": "config/alexsmobs/skelewag_spawns.json"
+          }
+        },
+        {
+          "id": "skreecher.json",
+          "name": "skreecher.json",
+          "type": "File",
+          "artifact": {
+            "size": 276,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/skreecher.json",
+            "MD5": "cf0d7ac8c8ec5f67d540efe79f2f2084",
+            "path": "config/alexsmobs/skreecher.json"
+          }
+        },
+        {
+          "id": "skunk_spawns.json",
+          "name": "skunk_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 2037,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/skunk_spawns.json",
+            "MD5": "e077fe3ab2315f937483c66f95ece589",
+            "path": "config/alexsmobs/skunk_spawns.json"
+          }
+        },
+        {
+          "id": "snow_leopard_spawns.json",
+          "name": "snow_leopard_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1808,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/snow_leopard_spawns.json",
+            "MD5": "54323941affc9be9f7a507f68dbd4ee7",
+            "path": "config/alexsmobs/snow_leopard_spawns.json"
+          }
+        },
+        {
+          "id": "soul_vulture_spawns.json",
+          "name": "soul_vulture_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 523,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/soul_vulture_spawns.json",
+            "MD5": "4121b1b2b71908c6db3f6f2a8c53059a",
+            "path": "config/alexsmobs/soul_vulture_spawns.json"
+          }
+        },
+        {
+          "id": "spectre_spawns.json",
+          "name": "spectre_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 250,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/spectre_spawns.json",
+            "MD5": "fe07337e303bd453f45f00ec63fa9c0a",
+            "path": "config/alexsmobs/spectre_spawns.json"
+          }
+        },
+        {
+          "id": "straddler_spawns.json",
+          "name": "straddler_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 664,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/straddler_spawns.json",
+            "MD5": "bf5897f982c8063dc1d570ad6c4eee95",
+            "path": "config/alexsmobs/straddler_spawns.json"
+          }
+        },
+        {
+          "id": "stradpole_spawns.json",
+          "name": "stradpole_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 664,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/stradpole_spawns.json",
+            "MD5": "bf5897f982c8063dc1d570ad6c4eee95",
+            "path": "config/alexsmobs/stradpole_spawns.json"
+          }
+        },
+        {
+          "id": "sugar_glider_spawns.json",
+          "name": "sugar_glider_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 418,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/sugar_glider_spawns.json",
+            "MD5": "6f1722c17a8adc08ab757a0e6377233e",
+            "path": "config/alexsmobs/sugar_glider_spawns.json"
+          }
+        },
+        {
+          "id": "sunbird_spawns.json",
+          "name": "sunbird_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 3925,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/sunbird_spawns.json",
+            "MD5": "147fdf357f3478c40b5b7481569c6c07",
+            "path": "config/alexsmobs/sunbird_spawns.json"
+          }
+        },
+        {
+          "id": "tarantula_hawk_spawns.json",
+          "name": "tarantula_hawk_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1252,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/tarantula_hawk_spawns.json",
+            "MD5": "1e43a85b07df2edeaed6affb2eb06eb5",
+            "path": "config/alexsmobs/tarantula_hawk_spawns.json"
+          }
+        },
+        {
+          "id": "tasmanian_devil_spawns.json",
+          "name": "tasmanian_devil_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1908,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/tasmanian_devil_spawns.json",
+            "MD5": "2234aec1f09e2e0e5d202cfbeb9b283b",
+            "path": "config/alexsmobs/tasmanian_devil_spawns.json"
+          }
+        },
+        {
+          "id": "terrapin_spawns.json",
+          "name": "terrapin_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 625,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/terrapin_spawns.json",
+            "MD5": "058a3971fb93597c04c1769bfe265fb9",
+            "path": "config/alexsmobs/terrapin_spawns.json"
+          }
+        },
+        {
+          "id": "tiger_spawns.json",
+          "name": "tiger_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1209,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/tiger_spawns.json",
+            "MD5": "8e7708606954a64a9f8648585c8a4a74",
+            "path": "config/alexsmobs/tiger_spawns.json"
+          }
+        },
+        {
+          "id": "toucan_spawns.json",
+          "name": "toucan_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1166,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/toucan_spawns.json",
+            "MD5": "2040bb544aff0345a335fd895cd0022c",
+            "path": "config/alexsmobs/toucan_spawns.json"
+          }
+        },
+        {
+          "id": "triops_spawns.json",
+          "name": "triops_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1252,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/triops_spawns.json",
+            "MD5": "1e43a85b07df2edeaed6affb2eb06eb5",
+            "path": "config/alexsmobs/triops_spawns.json"
+          }
+        },
+        {
+          "id": "tusklin_spawns.json",
+          "name": "tusklin_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 882,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/tusklin_spawns.json",
+            "MD5": "502bb996e36a50b977acb73e29e975df",
+            "path": "config/alexsmobs/tusklin_spawns.json"
+          }
+        },
+        {
+          "id": "underminer.json",
+          "name": "underminer.json",
+          "type": "File",
+          "artifact": {
+            "size": 2085,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/underminer.json",
+            "MD5": "4b8fb651c60044198150aa49c4193dcc",
+            "path": "config/alexsmobs/underminer.json"
+          }
+        },
+        {
+          "id": "void_worm_spawns.json",
+          "name": "void_worm_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 18,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/void_worm_spawns.json",
+            "MD5": "0531dec7156e47b4566a5eb598a4b931",
+            "path": "config/alexsmobs/void_worm_spawns.json"
+          }
+        },
+        {
+          "id": "warped_mosco_spawns.json",
+          "name": "warped_mosco_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 18,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/warped_mosco_spawns.json",
+            "MD5": "0531dec7156e47b4566a5eb598a4b931",
+            "path": "config/alexsmobs/warped_mosco_spawns.json"
+          }
+        },
+        {
+          "id": "warped_toad_spawns.json",
+          "name": "warped_toad_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 661,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/warped_toad_spawns.json",
+            "MD5": "39d42abce47f0e9e64bab7680a0d8ef0",
+            "path": "config/alexsmobs/warped_toad_spawns.json"
+          }
+        },
+        {
+          "id": "alexsmobs.toml",
+          "name": "alexsmobs.toml",
+          "type": "File",
+          "artifact": {
+            "size": 36192,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs.toml",
+            "MD5": "6b5567e6a3a903e0102c576899a33226",
+            "path": "config/alexsmobs.toml"
+          }
+        },
+        {
+          "id": "aquaculture-common.toml",
+          "name": "aquaculture-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 825,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/aquaculture-common.toml",
+            "MD5": "b81074cb98f1c58f87f580bbbc21fa47",
+            "path": "config/aquaculture-common.toml"
+          }
+        },
+        {
+          "id": "biome_toggles.json",
+          "name": "biome_toggles.json",
+          "type": "File",
+          "artifact": {
+            "size": 2101,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/biomesoplenty/biome_toggles.json",
+            "MD5": "9622131be20cba94996d4ea98b13e5f4",
+            "path": "config/biomesoplenty/biome_toggles.json"
+          }
+        },
+        {
+          "id": "gameplay.toml",
+          "name": "gameplay.toml",
+          "type": "File",
+          "artifact": {
+            "size": 113,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/biomesoplenty/gameplay.toml",
+            "MD5": "c936ddb3f303545076c1e8bfbb09a115",
+            "path": "config/biomesoplenty/gameplay.toml"
+          }
+        },
+        {
+          "id": "generation.toml",
+          "name": "generation.toml",
+          "type": "File",
+          "artifact": {
+            "size": 525,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/biomesoplenty/generation.toml",
+            "MD5": "93974e4b556a18a1300562eb96498122",
+            "path": "config/biomesoplenty/generation.toml"
+          }
+        },
+        {
+          "id": "blossom.json",
+          "name": "blossom.json",
+          "type": "File",
+          "artifact": {
+            "size": 79,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/blossom.json",
+            "MD5": "3e1e6e66617373584fbd7e9ec975a978",
+            "path": "config/blossom.json"
+          }
+        },
+        {
+          "id": "cfm-client.toml",
+          "name": "cfm-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 190,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/cfm-client.toml",
+            "MD5": "7fa57b2ec3af27c80b00b56b1fac740b",
+            "path": "config/cfm-client.toml"
+          }
+        },
+        {
+          "id": "cfm-common.toml",
+          "name": "cfm-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 259,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/cfm-common.toml",
+            "MD5": "0d385a1ecf645dda802350ffe3cb4bc4",
+            "path": "config/cfm-common.toml"
+          }
+        },
+        {
+          "id": "citadel-common.toml",
+          "name": "citadel-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 648,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/citadel-common.toml",
+            "MD5": "f211eac94129201b25acdeee49218d43",
+            "path": "config/citadel-common.toml"
+          }
+        },
+        {
+          "id": "CustomNpcs.cfg",
+          "name": "CustomNpcs.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 2276,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/CustomNpcs.cfg",
+            "MD5": "3aaa87fa7abcb1d7f840f9674df5f34d",
+            "path": "config/CustomNpcs.cfg"
+          }
+        },
+        {
+          "id": "farmersdelight-client.toml",
+          "name": "farmersdelight-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 369,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/farmersdelight-client.toml",
+            "MD5": "b00b8b023174e9f208b0a7649c87ad7b",
+            "path": "config/farmersdelight-client.toml"
+          }
+        },
+        {
+          "id": "farmersdelight-common.toml",
+          "name": "farmersdelight-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4540,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/farmersdelight-common.toml",
+            "MD5": "82ba75bba9643dc70a6f985a6a4396da",
+            "path": "config/farmersdelight-common.toml"
+          }
+        },
+        {
+          "id": "fml.toml",
+          "name": "fml.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1148,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/fml.toml",
+            "MD5": "783d5f5e55fc91951e5e234d72980761",
+            "path": "config/fml.toml"
+          }
+        },
+        {
+          "id": "forge-client.toml",
+          "name": "forge-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1628,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/forge-client.toml",
+            "MD5": "94d0dcbf248b1ee18bf1266c672327a1",
+            "path": "config/forge-client.toml"
+          }
+        },
+        {
+          "id": "koreanpatch.json5",
+          "name": "koreanpatch.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1513,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/koreanpatch.json5",
+            "MD5": "db57d63145cae2aa9d67e8b160151008",
+            "path": "config/koreanpatch.json5"
+          }
+        },
+        {
+          "id": "terrablender.toml",
+          "name": "terrablender.toml",
+          "type": "File",
+          "artifact": {
+            "size": 552,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/terrablender.toml",
+            "MD5": "0a79fa039b71bf8d3942f677d3269576",
+            "path": "config/terrablender.toml"
+          }
+        },
+        {
+          "id": "category-volumes.properties",
+          "name": "category-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 46,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/voicechat/category-volumes.properties",
+            "MD5": "47731f53ffef4a8a57c766a8091a5651",
+            "path": "config/voicechat/category-volumes.properties"
+          }
+        },
+        {
+          "id": "player-volumes.properties",
+          "name": "player-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 44,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/voicechat/player-volumes.properties",
+            "MD5": "881435f0ba9a0f1af1d2082d1298dcc4",
+            "path": "config/voicechat/player-volumes.properties"
+          }
+        },
+        {
+          "id": "translations.properties",
+          "name": "translations.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1182,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/voicechat/translations.properties",
+            "MD5": "4af29bbbf5267fe4298e80c2e6ebca63",
+            "path": "config/voicechat/translations.properties"
+          }
+        },
+        {
+          "id": "username-cache.json",
+          "name": "username-cache.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/voicechat/username-cache.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "config/voicechat/username-cache.json"
+          }
+        },
+        {
+          "id": "voicechat-client.properties",
+          "name": "voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4994,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/voicechat/voicechat-client.properties",
+            "MD5": "029da79b9f5284ac53a8e68078cc4889",
+            "path": "config/voicechat/voicechat-client.properties"
+          }
+        },
+        {
+          "id": "voicechat-server.properties",
+          "name": "voicechat-server.properties",
+          "type": "File",
+          "artifact": {
+            "size": 2441,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/voicechat/voicechat-server.properties",
+            "MD5": "8abd6abc64c8ccaa2d2d7378bdf5bbe6",
+            "path": "config/voicechat/voicechat-server.properties"
+          }
+        },
+        {
+          "id": "voicechat-client.toml",
+          "name": "voicechat-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 94,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/voicechat-client.toml",
+            "MD5": "2fb2989fe60bf9a60eb6e8946ce4bb12",
+            "path": "config/voicechat-client.toml"
+          }
         }
-    ]
+      ]
+    }
+  ]
 }
