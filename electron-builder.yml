@@ -51,7 +51,6 @@ directories:
   output: 'dist'
 
 publish:
-
-  provider: 'generic'
-
-  url: 'http://donthatefurry.com:48001'
+  provider: github
+  owner: HappyDurian
+  repo: HS-Launcher
