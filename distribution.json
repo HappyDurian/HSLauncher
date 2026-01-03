@@ -13,7 +13,7 @@
       "description": "HealingServer Running Minecraft 1.20.1 (Forge v47.4.10)",
       "icon": null,
       "version": "0.1",
-      "address": "localhost:25565",
+      "address": "healingserver.xgs.kr",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -21,7 +21,7 @@
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
       "mainServer": false,
-      "autoconnect": true,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.10",
