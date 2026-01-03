@@ -429,16 +429,6 @@
                 "MD5": "828cdcc361baffcdd38d7b7d05c62e35",
                 "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.10/fmlearlydisplay-1.20.1-47.4.10.jar"
               }
-            },
-            {
-              "id": "net.optifine:optifine:1.20.1_HD_U_I6@jar",
-              "name": "OptiFine",
-              "type": "Library",
-              "artifact": {
-                "size": 7145205,
-                "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/OptiFine_1.20.1_HD_U_I6.jar",
-                "MD5": "7a7982ac06b89dd8c1721ea53a33b768"
-              }
             }
           ]
         },
@@ -551,6 +541,7 @@
             "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/koreanpatch-forge-1.9.5+mc1.20.1.jar",
             "MD5": "b7c99a33c48f6ae31de7f7f6038800c2"
           }
+        },
         {
           "id": "terrablender.core:terrablender:3.0.1.10@jar",
           "name": "TerraBlender",
