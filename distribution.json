@@ -433,7 +433,7 @@
             {
               "id": "net.optifine:optifine:1.20.1_HD_U_I6@jar",
               "name": "OptiFine",
-              "type": "ForgeMod",
+              "type": "Library",
               "artifact": {
                 "size": 7145205,
                 "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/OptiFine_1.20.1_HD_U_I6.jar",
