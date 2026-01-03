@@ -7,6 +7,7 @@ const { getMojangOS, isLibraryCompatible, mcVersionAtLeast }  = require('helios-
 const { Type }              = require('helios-distribution-types')
 const os                    = require('os')
 const path                  = require('path')
+const nbt                   = require('prismarine-nbt')
 
 const ConfigManager            = require('./configmanager')
 
@@ -48,6 +49,9 @@ class ProcessBuilder {
         fs.ensureDirSync(this.gameDir)
         const tempNativePath = path.join(os.tmpdir(), ConfigManager.getTempNativeFolder(), crypto.pseudoRandomBytes(16).toString('hex'))
         process.throwDeprecation = true
+
+        // Add server to Minecraft's server list if autoconnect is enabled
+        this.addServerToMinecraftList()
         this.setupLiteLoader()
         logger.info('Using liteloader:', this.usingLiteLoader)
         this.usingFabricLoader = this.server.modules.some(mdl => mdl.rawModule.type === Type.Fabric)
@@ -885,6 +889,86 @@ class ProcessBuilder {
             }
         }
         return libs
+    }
+
+    /**
+     * Add the server to Minecraft's multiplayer server list if autoconnect is enabled.
+     */
+    addServerToMinecraftList(){
+        try {
+            if(!this.server.rawServer.autoconnect){
+                logger.info('Autoconnect disabled, skipping server list addition')
+                return
+            }
+
+            const minecraftDir = path.join(os.homedir(), 'AppData', 'Roaming', '.minecraft')
+            const serversDatPath = path.join(minecraftDir, 'servers.dat')
+            logger.info('Adding server to Minecraft server list:', this.server.rawServer.address)
+            logger.info('Minecraft directory:', minecraftDir)
+
+            // Ensure minecraft directory exists
+            if(!fs.existsSync(minecraftDir)){
+                logger.warn('Minecraft directory does not exist:', minecraftDir)
+                return
+            }
+
+            // Read existing servers.dat or create new one
+            let servers = []
+            if(fs.existsSync(serversDatPath)){
+                try {
+                    logger.info('Reading existing servers.dat')
+                    const data = fs.readFileSync(serversDatPath)
+                    const parsed = nbt.parse(data)
+                    servers = (parsed && parsed.value && parsed.value.servers && parsed.value.servers.value) ? parsed.value.servers.value : []
+                    logger.info('Found', servers.length, 'existing servers')
+                } catch (err) {
+                    logger.warn('Failed to read servers.dat, starting with empty list:', err.message)
+                    servers = []
+                }
+            } else {
+                logger.info('servers.dat does not exist, creating new list')
+            }
+
+            // Check if server already exists
+            const serverExists = servers.filter(s => s && s.ip && s.ip.value).some(s => s.ip.value === this.server.rawServer.address)
+            if(serverExists){
+                logger.info('Server already in list:', this.server.rawServer.address)
+                return
+            }
+
+            // Add new server
+            const newServer = {
+                name: { type: 'string', value: this.server.rawServer.name },
+                ip: { type: 'string', value: this.server.rawServer.address },
+                hideAddress: { type: 'byte', value: 0 },
+                acceptTextures: { type: 'byte', value: 1 }
+            }
+            servers.push(newServer)
+            logger.info('Added server to list, total servers:', servers.length)
+
+            // Write back to servers.dat
+            try {
+                const nbtData = nbt.writeUncompressed({
+                    name: '',
+                    type: 'compound',
+                    value: {
+                        servers: {
+                            type: 'list',
+                            value: {
+                                type: 'compound',
+                                value: servers
+                            }
+                        }
+                    }
+                })
+                fs.writeFileSync(serversDatPath, nbtData)
+                logger.info('Successfully wrote servers.dat with', servers.length, 'servers')
+            } catch (err) {
+                logger.error('Failed to write servers.dat:', err.message)
+            }
+        } catch (err) {
+            logger.error('Unexpected error in addServerToMinecraftList:', err.message)
+        }
     }
 
 }
