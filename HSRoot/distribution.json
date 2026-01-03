@@ -438,7 +438,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 26350793,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/alexsmobs-1.22.9.jar",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/alexsmobs-1.22.9.jar",
             "MD5": "504050d1f2e2c3019b6f53377ca354c6"
           }
         },
@@ -448,7 +448,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 601839,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/Aquaculture-1.20.1-2.5.7.jar",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/Aquaculture-1.20.1-2.5.7.jar",
             "MD5": "f39d02c30d59ec516e3221f9f7643909"
           }
         },
@@ -458,7 +458,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 22381010,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
             "MD5": "886b3d33f1e7dca2a937ec5c5dc19af8"
           }
         },
@@ -468,7 +468,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 60615,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/blossom-forge-1.20.1-1.0.7.jar",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/blossom-forge-1.20.1-1.0.7.jar",
             "MD5": "333e5a14e1b569442c7a7de7468089b7"
           }
         },
@@ -478,7 +478,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2613393,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/cfm-forge-1.20.1-7.0.0-pre36.jar",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/cfm-forge-1.20.1-7.0.0-pre36.jar",
             "MD5": "faf78627dad9c9c04e7a4fa8992c54dc"
           }
         },
@@ -488,7 +488,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 3185379,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/citadel-2.6.2-1.20.1.jar",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/citadel-2.6.2-1.20.1.jar",
             "MD5": "f027b4f6862b99a1e0516353fb3ef0fc"
           }
         },
@@ -498,7 +498,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 10808462,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/CustomNPCs-1.20.1-GBPort-Unofficial-20251031.jar",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/CustomNPCs-1.20.1-GBPort-Unofficial-20251031.jar",
             "MD5": "9f368c11f324dfc1292a37fbbed1b473"
           }
         },
@@ -508,7 +508,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2978080,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.2.9.jar",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.2.9.jar",
             "MD5": "71e177a98e0e6f399761ad00e978d177"
           }
         },
@@ -518,8 +518,18 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 87550,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/GlitchCore-forge-1.20.1-0.0.1.1.jar",
             "MD5": "6d24b09db12acdab40437a1929259352"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.20.0.129@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1409642,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/jei-1.20.1-forge-15.20.0.129.jar",
+            "MD5": "a5192227a15e0fe0e367828b32c1f472"
           }
         },
         {
@@ -528,8 +538,18 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 316542,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/koreanpatch-forge-1.9.5+mc1.20.1.jar",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/koreanpatch-forge-1.9.5+mc1.20.1.jar",
             "MD5": "b7c99a33c48f6ae31de7f7f6038800c2"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.20.1_HD_U_I6@jar",
+          "name": "OptiFine",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7145205,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/OptiFine_1.20.1_HD_U_I6.jar",
+            "MD5": "7a7982ac06b89dd8c1721ea53a33b768"
           }
         },
         {
@@ -538,7 +558,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 107532,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/TerraBlender-forge-1.20.1-3.0.1.10.jar",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/TerraBlender-forge-1.20.1-3.0.1.10.jar",
             "MD5": "9d8e305b95ae5a8f7b446d6346324267"
           }
         },
@@ -548,8 +568,18 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 4892021,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.6.10.jar",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.6.10.jar",
             "MD5": "cd6ce236a50f8a4a0ceeb7d961aef4d0"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:25.3.2@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2128565,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/Xaeros_Minimap_25.3.2_Forge_1.20.jar",
+            "MD5": "9c9832e2b8f9f512384103d95c899e64"
           }
         },
         {
@@ -558,7 +588,7 @@
           "type": "File",
           "artifact": {
             "size": 754,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/alligator_snapping_turtle_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/alligator_snapping_turtle_spawns.json",
             "MD5": "e880e0c7e38986fb1f7a8885a892b0fc",
             "path": "config/alexsmobs/alligator_snapping_turtle_spawns.json"
           }
@@ -569,7 +599,7 @@
           "type": "File",
           "artifact": {
             "size": 1036,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/anaconda_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/anaconda_spawns.json",
             "MD5": "74d2b1bc857e9acb8321f296567a8f7f",
             "path": "config/alexsmobs/anaconda_spawns.json"
           }
@@ -580,7 +610,7 @@
           "type": "File",
           "artifact": {
             "size": 1166,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/anteater_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/anteater_spawns.json",
             "MD5": "2040bb544aff0345a335fd895cd0022c",
             "path": "config/alexsmobs/anteater_spawns.json"
           }
@@ -591,7 +621,7 @@
           "type": "File",
           "artifact": {
             "size": 2723,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/bald_eagle_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/bald_eagle_spawns.json",
             "MD5": "dd9229ac98bbf83a1309d4b1e3770fd5",
             "path": "config/alexsmobs/bald_eagle_spawns.json"
           }
@@ -602,7 +632,7 @@
           "type": "File",
           "artifact": {
             "size": 1697,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/banana_slug_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/banana_slug_spawns.json",
             "MD5": "6aec0b8dd4904343a50e7fb0a37b2912",
             "path": "config/alexsmobs/banana_slug_spawns.json"
           }
@@ -613,7 +643,7 @@
           "type": "File",
           "artifact": {
             "size": 1761,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/bison_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/bison_spawns.json",
             "MD5": "729766841964832662fb610b6a661dc4",
             "path": "config/alexsmobs/bison_spawns.json"
           }
@@ -624,7 +654,7 @@
           "type": "File",
           "artifact": {
             "size": 146,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/blobfish_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/blobfish_spawns.json",
             "MD5": "ad3201c8f95a758dbe8496d677756a5e",
             "path": "config/alexsmobs/blobfish_spawns.json"
           }
@@ -635,7 +665,7 @@
           "type": "File",
           "artifact": {
             "size": 4020,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/blue_jay_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/blue_jay_spawns.json",
             "MD5": "9b797aa57e7c173d5e4a8f034f267dff",
             "path": "config/alexsmobs/blue_jay_spawns.json"
           }
@@ -646,7 +676,7 @@
           "type": "File",
           "artifact": {
             "size": 257,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/bone_serpent_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/bone_serpent_spawns.json",
             "MD5": "7f0b198410364ba04743be1a24f901db",
             "path": "config/alexsmobs/bone_serpent_spawns.json"
           }
@@ -657,7 +687,7 @@
           "type": "File",
           "artifact": {
             "size": 486,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/bunfungus_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/bunfungus_spawns.json",
             "MD5": "e585908f8d3914a77836461f2f136848",
             "path": "config/alexsmobs/bunfungus_spawns.json"
           }
@@ -668,7 +698,7 @@
           "type": "File",
           "artifact": {
             "size": 642,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/cachalot_whale_beached_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/cachalot_whale_beached_spawns.json",
             "MD5": "b779f228a334a5be8eaa5f845664105c",
             "path": "config/alexsmobs/cachalot_whale_beached_spawns.json"
           }
@@ -679,7 +709,7 @@
           "type": "File",
           "artifact": {
             "size": 893,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/cachalot_whale_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/cachalot_whale_spawns.json",
             "MD5": "53158516acce1c7ce2d05e0a61ff5965",
             "path": "config/alexsmobs/cachalot_whale_spawns.json"
           }
@@ -690,7 +720,7 @@
           "type": "File",
           "artifact": {
             "size": 291,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/caiman_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/caiman_spawns.json",
             "MD5": "0443b3f49eb26ce302434cf0af666b90",
             "path": "config/alexsmobs/caiman_spawns.json"
           }
@@ -701,7 +731,7 @@
           "type": "File",
           "artifact": {
             "size": 1184,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/capuchin_monkey_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/capuchin_monkey_spawns.json",
             "MD5": "61f854072c18a0b127bb37c01b33a0ae",
             "path": "config/alexsmobs/capuchin_monkey_spawns.json"
           }
@@ -712,7 +742,7 @@
           "type": "File",
           "artifact": {
             "size": 1097,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/catfish_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/catfish_spawns.json",
             "MD5": "f0234087612d8035344fbfb634cebfa9",
             "path": "config/alexsmobs/catfish_spawns.json"
           }
@@ -723,7 +753,7 @@
           "type": "File",
           "artifact": {
             "size": 2200,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/cave_centipede_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/cave_centipede_spawns.json",
             "MD5": "a6fcbacb06418e1c951695b0f4919f13",
             "path": "config/alexsmobs/cave_centipede_spawns.json"
           }
@@ -734,7 +764,7 @@
           "type": "File",
           "artifact": {
             "size": 2085,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/cockroach_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/cockroach_spawns.json",
             "MD5": "4b8fb651c60044198150aa49c4193dcc",
             "path": "config/alexsmobs/cockroach_spawns.json"
           }
@@ -745,7 +775,7 @@
           "type": "File",
           "artifact": {
             "size": 414,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/comb_jelly_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/comb_jelly_spawns.json",
             "MD5": "e9fa2345daa80ad12a849fe96ea656f9",
             "path": "config/alexsmobs/comb_jelly_spawns.json"
           }
@@ -756,7 +786,7 @@
           "type": "File",
           "artifact": {
             "size": 371,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/cosmaw_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/cosmaw_spawns.json",
             "MD5": "99ec85d1693bdd51d1970b9bfba84267",
             "path": "config/alexsmobs/cosmaw_spawns.json"
           }
@@ -767,7 +797,7 @@
           "type": "File",
           "artifact": {
             "size": 139,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/cosmic_cod_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/cosmic_cod_spawns.json",
             "MD5": "84b1c3b63a2e5656da5478c844a5ad49",
             "path": "config/alexsmobs/cosmic_cod_spawns.json"
           }
@@ -778,7 +808,7 @@
           "type": "File",
           "artifact": {
             "size": 785,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/crimson_mosquito_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/crimson_mosquito_spawns.json",
             "MD5": "0c095c6657c6df75653ab9a0b049b4e1",
             "path": "config/alexsmobs/crimson_mosquito_spawns.json"
           }
@@ -789,7 +819,7 @@
           "type": "File",
           "artifact": {
             "size": 1007,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/crocodile_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/crocodile_spawns.json",
             "MD5": "062f820f53eee3c3a4eed7621a4d96c3",
             "path": "config/alexsmobs/crocodile_spawns.json"
           }
@@ -800,7 +830,7 @@
           "type": "File",
           "artifact": {
             "size": 5146,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/crow_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/crow_spawns.json",
             "MD5": "607a09f65c8023448ad7828e29bde4e6",
             "path": "config/alexsmobs/crow_spawns.json"
           }
@@ -811,7 +841,7 @@
           "type": "File",
           "artifact": {
             "size": 145,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/devils_hole_pupfish_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/devils_hole_pupfish_spawns.json",
             "MD5": "2c88b50ebef0c2d8cefd7fec53cc1b31",
             "path": "config/alexsmobs/devils_hole_pupfish_spawns.json"
           }
@@ -822,7 +852,7 @@
           "type": "File",
           "artifact": {
             "size": 403,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/dropbear_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/dropbear_spawns.json",
             "MD5": "95aa6694d6dd2f14fcfcedc28f5698e9",
             "path": "config/alexsmobs/dropbear_spawns.json"
           }
@@ -833,7 +863,7 @@
           "type": "File",
           "artifact": {
             "size": 1163,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/elephant_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/elephant_spawns.json",
             "MD5": "1032996d6a2cac873766f7a443d44810",
             "path": "config/alexsmobs/elephant_spawns.json"
           }
@@ -844,7 +874,7 @@
           "type": "File",
           "artifact": {
             "size": 1661,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/emu_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/emu_spawns.json",
             "MD5": "3eb32cae8d7825df19055f0b673481ec",
             "path": "config/alexsmobs/emu_spawns.json"
           }
@@ -855,7 +885,7 @@
           "type": "File",
           "artifact": {
             "size": 250,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/endergrade_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/endergrade_spawns.json",
             "MD5": "fe07337e303bd453f45f00ec63fa9c0a",
             "path": "config/alexsmobs/endergrade_spawns.json"
           }
@@ -866,7 +896,7 @@
           "type": "File",
           "artifact": {
             "size": 603,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/enderiophage_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/enderiophage_spawns.json",
             "MD5": "4ab64e4848a83c605d54ade54fdf0702",
             "path": "config/alexsmobs/enderiophage_spawns.json"
           }
@@ -877,7 +907,7 @@
           "type": "File",
           "artifact": {
             "size": 266,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/farseer.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/farseer.json",
             "MD5": "337b5b31ce112b2c614749d2e1047254",
             "path": "config/alexsmobs/farseer.json"
           }
@@ -888,7 +918,7 @@
           "type": "File",
           "artifact": {
             "size": 147,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/flutter_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/flutter_spawns.json",
             "MD5": "1ab7408c8c7997d1ca595bdaa531820b",
             "path": "config/alexsmobs/flutter_spawns.json"
           }
@@ -899,7 +929,7 @@
           "type": "File",
           "artifact": {
             "size": 716,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/flying_fish_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/flying_fish_spawns.json",
             "MD5": "7bf21cd1ccc1499470e52d91402a899f",
             "path": "config/alexsmobs/flying_fish_spawns.json"
           }
@@ -910,7 +940,7 @@
           "type": "File",
           "artifact": {
             "size": 145,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/fly_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/fly_spawns.json",
             "MD5": "2c88b50ebef0c2d8cefd7fec53cc1b31",
             "path": "config/alexsmobs/fly_spawns.json"
           }
@@ -921,7 +951,7 @@
           "type": "File",
           "artifact": {
             "size": 146,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/frilled_shark_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/frilled_shark_spawns.json",
             "MD5": "ad3201c8f95a758dbe8496d677756a5e",
             "path": "config/alexsmobs/frilled_shark_spawns.json"
           }
@@ -932,7 +962,7 @@
           "type": "File",
           "artifact": {
             "size": 934,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/froststalker_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/froststalker_spawns.json",
             "MD5": "2a017b04fa69a371da739dca3dccfaeb",
             "path": "config/alexsmobs/froststalker_spawns.json"
           }
@@ -943,7 +973,7 @@
           "type": "File",
           "artifact": {
             "size": 1050,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/gazelle_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/gazelle_spawns.json",
             "MD5": "397912ee2f4758bf87c6e017fc8c3dc0",
             "path": "config/alexsmobs/gazelle_spawns.json"
           }
@@ -954,7 +984,7 @@
           "type": "File",
           "artifact": {
             "size": 1001,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/gelada_monkey_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/gelada_monkey_spawns.json",
             "MD5": "c229e44c5b5bd924b2449149c1fabac7",
             "path": "config/alexsmobs/gelada_monkey_spawns.json"
           }
@@ -965,7 +995,7 @@
           "type": "File",
           "artifact": {
             "size": 146,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/giant_squid_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/giant_squid_spawns.json",
             "MD5": "ad3201c8f95a758dbe8496d677756a5e",
             "path": "config/alexsmobs/giant_squid_spawns.json"
           }
@@ -976,7 +1006,7 @@
           "type": "File",
           "artifact": {
             "size": 1053,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/gorilla_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/gorilla_spawns.json",
             "MD5": "803b7292137cbeece7aaa1d69e04b5b2",
             "path": "config/alexsmobs/gorilla_spawns.json"
           }
@@ -987,7 +1017,7 @@
           "type": "File",
           "artifact": {
             "size": 4020,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/grizzly_bear_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/grizzly_bear_spawns.json",
             "MD5": "9b797aa57e7c173d5e4a8f034f267dff",
             "path": "config/alexsmobs/grizzly_bear_spawns.json"
           }
@@ -998,7 +1028,7 @@
           "type": "File",
           "artifact": {
             "size": 1132,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/guster_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/guster_spawns.json",
             "MD5": "9f7fac3c24c356a767bce153106054dd",
             "path": "config/alexsmobs/guster_spawns.json"
           }
@@ -1009,7 +1039,7 @@
           "type": "File",
           "artifact": {
             "size": 254,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/hammerhead_shark_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/hammerhead_shark_spawns.json",
             "MD5": "3e1c6fd6a63f92c5784cd66565dfb1f7",
             "path": "config/alexsmobs/hammerhead_shark_spawns.json"
           }
@@ -1020,7 +1050,7 @@
           "type": "File",
           "artifact": {
             "size": 3029,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/hummingbird_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/hummingbird_spawns.json",
             "MD5": "4ab2f69a298dba2dd6de993426aa1642",
             "path": "config/alexsmobs/hummingbird_spawns.json"
           }
@@ -1031,7 +1061,7 @@
           "type": "File",
           "artifact": {
             "size": 1252,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/jerboa_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/jerboa_spawns.json",
             "MD5": "1e43a85b07df2edeaed6affb2eb06eb5",
             "path": "config/alexsmobs/jerboa_spawns.json"
           }
@@ -1042,7 +1072,7 @@
           "type": "File",
           "artifact": {
             "size": 1661,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/kangaroo_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/kangaroo_spawns.json",
             "MD5": "3eb32cae8d7825df19055f0b673481ec",
             "path": "config/alexsmobs/kangaroo_spawns.json"
           }
@@ -1053,7 +1083,7 @@
           "type": "File",
           "artifact": {
             "size": 775,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/komodo_dragon_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/komodo_dragon_spawns.json",
             "MD5": "bb0e841a9cf2784c27209ab46af2ab58",
             "path": "config/alexsmobs/komodo_dragon_spawns.json"
           }
@@ -1064,7 +1094,7 @@
           "type": "File",
           "artifact": {
             "size": 142,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/laviathan_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/laviathan_spawns.json",
             "MD5": "477bc268eb72dc151845a22729de3fe8",
             "path": "config/alexsmobs/laviathan_spawns.json"
           }
@@ -1075,7 +1105,7 @@
           "type": "File",
           "artifact": {
             "size": 1166,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/leafcutter_anthill_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/leafcutter_anthill_spawns.json",
             "MD5": "2040bb544aff0345a335fd895cd0022c",
             "path": "config/alexsmobs/leafcutter_anthill_spawns.json"
           }
@@ -1086,7 +1116,7 @@
           "type": "File",
           "artifact": {
             "size": 398,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/lobster_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/lobster_spawns.json",
             "MD5": "3284cadc1438c85425a3621a016e6eba",
             "path": "config/alexsmobs/lobster_spawns.json"
           }
@@ -1097,7 +1127,7 @@
           "type": "File",
           "artifact": {
             "size": 1037,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/maned_wolf_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/maned_wolf_spawns.json",
             "MD5": "c21feac193fa689955ac90f659e1f0c2",
             "path": "config/alexsmobs/maned_wolf_spawns.json"
           }
@@ -1108,7 +1138,7 @@
           "type": "File",
           "artifact": {
             "size": 385,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/mantis_shrimp_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/mantis_shrimp_spawns.json",
             "MD5": "c0a4157361a392c8a4d4e32d95bcc46f",
             "path": "config/alexsmobs/mantis_shrimp_spawns.json"
           }
@@ -1119,7 +1149,7 @@
           "type": "File",
           "artifact": {
             "size": 365,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/mimicube_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/mimicube_spawns.json",
             "MD5": "5dfd54d2860bbecb3d63d3a0cbc42752",
             "path": "config/alexsmobs/mimicube_spawns.json"
           }
@@ -1130,7 +1160,7 @@
           "type": "File",
           "artifact": {
             "size": 373,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/mimic_octopus_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/mimic_octopus_spawns.json",
             "MD5": "468f301a2a863dc3c56c0dffc967fb73",
             "path": "config/alexsmobs/mimic_octopus_spawns.json"
           }
@@ -1141,7 +1171,7 @@
           "type": "File",
           "artifact": {
             "size": 2291,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/moose_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/moose_spawns.json",
             "MD5": "9352df8e11cc9d6c49756868320ff3bb",
             "path": "config/alexsmobs/moose_spawns.json"
           }
@@ -1152,7 +1182,7 @@
           "type": "File",
           "artifact": {
             "size": 291,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/mudskipper_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/mudskipper_spawns.json",
             "MD5": "0443b3f49eb26ce302434cf0af666b90",
             "path": "config/alexsmobs/mudskipper_spawns.json"
           }
@@ -1163,7 +1193,7 @@
           "type": "File",
           "artifact": {
             "size": 486,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/mungus_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/mungus_spawns.json",
             "MD5": "e585908f8d3914a77836461f2f136848",
             "path": "config/alexsmobs/mungus_spawns.json"
           }
@@ -1174,7 +1204,7 @@
           "type": "File",
           "artifact": {
             "size": 2200,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/murmur.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/murmur.json",
             "MD5": "a6fcbacb06418e1c951695b0f4919f13",
             "path": "config/alexsmobs/murmur.json"
           }
@@ -1185,7 +1215,7 @@
           "type": "File",
           "artifact": {
             "size": 255,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/orca_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/orca_spawns.json",
             "MD5": "7c9a514102d327b8d9ba16b19a991049",
             "path": "config/alexsmobs/orca_spawns.json"
           }
@@ -1196,7 +1226,7 @@
           "type": "File",
           "artifact": {
             "size": 625,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/platypus_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/platypus_spawns.json",
             "MD5": "058a3971fb93597c04c1769bfe265fb9",
             "path": "config/alexsmobs/platypus_spawns.json"
           }
@@ -1207,7 +1237,7 @@
           "type": "File",
           "artifact": {
             "size": 148,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/potoo_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/potoo_spawns.json",
             "MD5": "d1511fa5b0562676dab091599bc838a2",
             "path": "config/alexsmobs/potoo_spawns.json"
           }
@@ -1218,7 +1248,7 @@
           "type": "File",
           "artifact": {
             "size": 3712,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/raccoon_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/raccoon_spawns.json",
             "MD5": "ef2fd8cf69fc21a78c45e79c1a1bf5a7",
             "path": "config/alexsmobs/raccoon_spawns.json"
           }
@@ -1229,7 +1259,7 @@
           "type": "File",
           "artifact": {
             "size": 1252,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/rain_frog_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/rain_frog_spawns.json",
             "MD5": "1e43a85b07df2edeaed6affb2eb06eb5",
             "path": "config/alexsmobs/rain_frog_spawns.json"
           }
@@ -1240,7 +1270,7 @@
           "type": "File",
           "artifact": {
             "size": 1646,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/rattlesnake_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/rattlesnake_spawns.json",
             "MD5": "c9f3ffa55ec8cc5d57ed9a8bcb0ea1fe",
             "path": "config/alexsmobs/rattlesnake_spawns.json"
           }
@@ -1251,7 +1281,7 @@
           "type": "File",
           "artifact": {
             "size": 1050,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/rhinoceros_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/rhinoceros_spawns.json",
             "MD5": "397912ee2f4758bf87c6e017fc8c3dc0",
             "path": "config/alexsmobs/rhinoceros_spawns.json"
           }
@@ -1262,7 +1292,7 @@
           "type": "File",
           "artifact": {
             "size": 1646,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/roadrunner_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/roadrunner_spawns.json",
             "MD5": "c9f3ffa55ec8cc5d57ed9a8bcb0ea1fe",
             "path": "config/alexsmobs/roadrunner_spawns.json"
           }
@@ -1273,7 +1303,7 @@
           "type": "File",
           "artifact": {
             "size": 673,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/rocky_roller_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/rocky_roller_spawns.json",
             "MD5": "7f40733890dcc5279c2addea737b4b80",
             "path": "config/alexsmobs/rocky_roller_spawns.json"
           }
@@ -1284,7 +1314,7 @@
           "type": "File",
           "artifact": {
             "size": 1296,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/seagull_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/seagull_spawns.json",
             "MD5": "477c8512be58a4c7cadbc3ea65c3642a",
             "path": "config/alexsmobs/seagull_spawns.json"
           }
@@ -1295,7 +1325,7 @@
           "type": "File",
           "artifact": {
             "size": 877,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/seal_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/seal_spawns.json",
             "MD5": "001c3ef108fd4fa9766fc80441edeb04",
             "path": "config/alexsmobs/seal_spawns.json"
           }
@@ -1306,7 +1336,7 @@
           "type": "File",
           "artifact": {
             "size": 623,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/shoebill_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/shoebill_spawns.json",
             "MD5": "7e9b29c6eba19484a234ee300f2dea69",
             "path": "config/alexsmobs/shoebill_spawns.json"
           }
@@ -1317,7 +1347,7 @@
           "type": "File",
           "artifact": {
             "size": 374,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/skelewag_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/skelewag_spawns.json",
             "MD5": "b848bd81bc3b313dba92f2743bc27643",
             "path": "config/alexsmobs/skelewag_spawns.json"
           }
@@ -1328,7 +1358,7 @@
           "type": "File",
           "artifact": {
             "size": 276,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/skreecher.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/skreecher.json",
             "MD5": "cf0d7ac8c8ec5f67d540efe79f2f2084",
             "path": "config/alexsmobs/skreecher.json"
           }
@@ -1339,7 +1369,7 @@
           "type": "File",
           "artifact": {
             "size": 2037,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/skunk_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/skunk_spawns.json",
             "MD5": "e077fe3ab2315f937483c66f95ece589",
             "path": "config/alexsmobs/skunk_spawns.json"
           }
@@ -1350,7 +1380,7 @@
           "type": "File",
           "artifact": {
             "size": 1808,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/snow_leopard_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/snow_leopard_spawns.json",
             "MD5": "54323941affc9be9f7a507f68dbd4ee7",
             "path": "config/alexsmobs/snow_leopard_spawns.json"
           }
@@ -1361,7 +1391,7 @@
           "type": "File",
           "artifact": {
             "size": 523,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/soul_vulture_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/soul_vulture_spawns.json",
             "MD5": "4121b1b2b71908c6db3f6f2a8c53059a",
             "path": "config/alexsmobs/soul_vulture_spawns.json"
           }
@@ -1372,7 +1402,7 @@
           "type": "File",
           "artifact": {
             "size": 250,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/spectre_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/spectre_spawns.json",
             "MD5": "fe07337e303bd453f45f00ec63fa9c0a",
             "path": "config/alexsmobs/spectre_spawns.json"
           }
@@ -1383,7 +1413,7 @@
           "type": "File",
           "artifact": {
             "size": 664,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/straddler_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/straddler_spawns.json",
             "MD5": "bf5897f982c8063dc1d570ad6c4eee95",
             "path": "config/alexsmobs/straddler_spawns.json"
           }
@@ -1394,7 +1424,7 @@
           "type": "File",
           "artifact": {
             "size": 664,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/stradpole_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/stradpole_spawns.json",
             "MD5": "bf5897f982c8063dc1d570ad6c4eee95",
             "path": "config/alexsmobs/stradpole_spawns.json"
           }
@@ -1405,7 +1435,7 @@
           "type": "File",
           "artifact": {
             "size": 418,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/sugar_glider_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/sugar_glider_spawns.json",
             "MD5": "6f1722c17a8adc08ab757a0e6377233e",
             "path": "config/alexsmobs/sugar_glider_spawns.json"
           }
@@ -1416,7 +1446,7 @@
           "type": "File",
           "artifact": {
             "size": 3925,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/sunbird_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/sunbird_spawns.json",
             "MD5": "147fdf357f3478c40b5b7481569c6c07",
             "path": "config/alexsmobs/sunbird_spawns.json"
           }
@@ -1427,7 +1457,7 @@
           "type": "File",
           "artifact": {
             "size": 1252,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/tarantula_hawk_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/tarantula_hawk_spawns.json",
             "MD5": "1e43a85b07df2edeaed6affb2eb06eb5",
             "path": "config/alexsmobs/tarantula_hawk_spawns.json"
           }
@@ -1438,7 +1468,7 @@
           "type": "File",
           "artifact": {
             "size": 1908,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/tasmanian_devil_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/tasmanian_devil_spawns.json",
             "MD5": "2234aec1f09e2e0e5d202cfbeb9b283b",
             "path": "config/alexsmobs/tasmanian_devil_spawns.json"
           }
@@ -1449,7 +1479,7 @@
           "type": "File",
           "artifact": {
             "size": 625,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/terrapin_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/terrapin_spawns.json",
             "MD5": "058a3971fb93597c04c1769bfe265fb9",
             "path": "config/alexsmobs/terrapin_spawns.json"
           }
@@ -1460,7 +1490,7 @@
           "type": "File",
           "artifact": {
             "size": 1209,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/tiger_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/tiger_spawns.json",
             "MD5": "8e7708606954a64a9f8648585c8a4a74",
             "path": "config/alexsmobs/tiger_spawns.json"
           }
@@ -1471,7 +1501,7 @@
           "type": "File",
           "artifact": {
             "size": 1166,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/toucan_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/toucan_spawns.json",
             "MD5": "2040bb544aff0345a335fd895cd0022c",
             "path": "config/alexsmobs/toucan_spawns.json"
           }
@@ -1482,7 +1512,7 @@
           "type": "File",
           "artifact": {
             "size": 1252,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/triops_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/triops_spawns.json",
             "MD5": "1e43a85b07df2edeaed6affb2eb06eb5",
             "path": "config/alexsmobs/triops_spawns.json"
           }
@@ -1493,7 +1523,7 @@
           "type": "File",
           "artifact": {
             "size": 882,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/tusklin_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/tusklin_spawns.json",
             "MD5": "502bb996e36a50b977acb73e29e975df",
             "path": "config/alexsmobs/tusklin_spawns.json"
           }
@@ -1504,7 +1534,7 @@
           "type": "File",
           "artifact": {
             "size": 2085,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/underminer.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/underminer.json",
             "MD5": "4b8fb651c60044198150aa49c4193dcc",
             "path": "config/alexsmobs/underminer.json"
           }
@@ -1515,7 +1545,7 @@
           "type": "File",
           "artifact": {
             "size": 18,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/void_worm_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/void_worm_spawns.json",
             "MD5": "0531dec7156e47b4566a5eb598a4b931",
             "path": "config/alexsmobs/void_worm_spawns.json"
           }
@@ -1526,7 +1556,7 @@
           "type": "File",
           "artifact": {
             "size": 18,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/warped_mosco_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/warped_mosco_spawns.json",
             "MD5": "0531dec7156e47b4566a5eb598a4b931",
             "path": "config/alexsmobs/warped_mosco_spawns.json"
           }
@@ -1537,7 +1567,7 @@
           "type": "File",
           "artifact": {
             "size": 661,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs/warped_toad_spawns.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs/warped_toad_spawns.json",
             "MD5": "39d42abce47f0e9e64bab7680a0d8ef0",
             "path": "config/alexsmobs/warped_toad_spawns.json"
           }
@@ -1548,7 +1578,7 @@
           "type": "File",
           "artifact": {
             "size": 36192,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/alexsmobs.toml",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/alexsmobs.toml",
             "MD5": "6b5567e6a3a903e0102c576899a33226",
             "path": "config/alexsmobs.toml"
           }
@@ -1559,7 +1589,7 @@
           "type": "File",
           "artifact": {
             "size": 825,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/aquaculture-common.toml",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/aquaculture-common.toml",
             "MD5": "b81074cb98f1c58f87f580bbbc21fa47",
             "path": "config/aquaculture-common.toml"
           }
@@ -1570,7 +1600,7 @@
           "type": "File",
           "artifact": {
             "size": 2101,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/biomesoplenty/biome_toggles.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/biomesoplenty/biome_toggles.json",
             "MD5": "9622131be20cba94996d4ea98b13e5f4",
             "path": "config/biomesoplenty/biome_toggles.json"
           }
@@ -1581,7 +1611,7 @@
           "type": "File",
           "artifact": {
             "size": 113,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/biomesoplenty/gameplay.toml",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/biomesoplenty/gameplay.toml",
             "MD5": "c936ddb3f303545076c1e8bfbb09a115",
             "path": "config/biomesoplenty/gameplay.toml"
           }
@@ -1592,7 +1622,7 @@
           "type": "File",
           "artifact": {
             "size": 525,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/biomesoplenty/generation.toml",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/biomesoplenty/generation.toml",
             "MD5": "93974e4b556a18a1300562eb96498122",
             "path": "config/biomesoplenty/generation.toml"
           }
@@ -1603,7 +1633,7 @@
           "type": "File",
           "artifact": {
             "size": 79,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/blossom.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/blossom.json",
             "MD5": "3e1e6e66617373584fbd7e9ec975a978",
             "path": "config/blossom.json"
           }
@@ -1614,7 +1644,7 @@
           "type": "File",
           "artifact": {
             "size": 190,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/cfm-client.toml",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/cfm-client.toml",
             "MD5": "7fa57b2ec3af27c80b00b56b1fac740b",
             "path": "config/cfm-client.toml"
           }
@@ -1625,7 +1655,7 @@
           "type": "File",
           "artifact": {
             "size": 259,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/cfm-common.toml",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/cfm-common.toml",
             "MD5": "0d385a1ecf645dda802350ffe3cb4bc4",
             "path": "config/cfm-common.toml"
           }
@@ -1636,7 +1666,7 @@
           "type": "File",
           "artifact": {
             "size": 648,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/citadel-common.toml",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/citadel-common.toml",
             "MD5": "f211eac94129201b25acdeee49218d43",
             "path": "config/citadel-common.toml"
           }
@@ -1647,7 +1677,7 @@
           "type": "File",
           "artifact": {
             "size": 2276,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/CustomNpcs.cfg",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/CustomNpcs.cfg",
             "MD5": "3aaa87fa7abcb1d7f840f9674df5f34d",
             "path": "config/CustomNpcs.cfg"
           }
@@ -1658,7 +1688,7 @@
           "type": "File",
           "artifact": {
             "size": 369,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/farmersdelight-client.toml",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/farmersdelight-client.toml",
             "MD5": "b00b8b023174e9f208b0a7649c87ad7b",
             "path": "config/farmersdelight-client.toml"
           }
@@ -1669,7 +1699,7 @@
           "type": "File",
           "artifact": {
             "size": 4540,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/farmersdelight-common.toml",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/farmersdelight-common.toml",
             "MD5": "82ba75bba9643dc70a6f985a6a4396da",
             "path": "config/farmersdelight-common.toml"
           }
@@ -1680,7 +1710,7 @@
           "type": "File",
           "artifact": {
             "size": 1148,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/fml.toml",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/fml.toml",
             "MD5": "783d5f5e55fc91951e5e234d72980761",
             "path": "config/fml.toml"
           }
@@ -1691,7 +1721,7 @@
           "type": "File",
           "artifact": {
             "size": 1628,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/forge-client.toml",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/forge-client.toml",
             "MD5": "94d0dcbf248b1ee18bf1266c672327a1",
             "path": "config/forge-client.toml"
           }
@@ -1702,7 +1732,7 @@
           "type": "File",
           "artifact": {
             "size": 1513,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/koreanpatch.json5",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/koreanpatch.json5",
             "MD5": "db57d63145cae2aa9d67e8b160151008",
             "path": "config/koreanpatch.json5"
           }
@@ -1713,7 +1743,7 @@
           "type": "File",
           "artifact": {
             "size": 552,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/terrablender.toml",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/terrablender.toml",
             "MD5": "0a79fa039b71bf8d3942f677d3269576",
             "path": "config/terrablender.toml"
           }
@@ -1724,7 +1754,7 @@
           "type": "File",
           "artifact": {
             "size": 46,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/voicechat/category-volumes.properties",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/voicechat/category-volumes.properties",
             "MD5": "47731f53ffef4a8a57c766a8091a5651",
             "path": "config/voicechat/category-volumes.properties"
           }
@@ -1735,7 +1765,7 @@
           "type": "File",
           "artifact": {
             "size": 44,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/voicechat/player-volumes.properties",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/voicechat/player-volumes.properties",
             "MD5": "881435f0ba9a0f1af1d2082d1298dcc4",
             "path": "config/voicechat/player-volumes.properties"
           }
@@ -1746,7 +1776,7 @@
           "type": "File",
           "artifact": {
             "size": 1182,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/voicechat/translations.properties",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/voicechat/translations.properties",
             "MD5": "4af29bbbf5267fe4298e80c2e6ebca63",
             "path": "config/voicechat/translations.properties"
           }
@@ -1757,7 +1787,7 @@
           "type": "File",
           "artifact": {
             "size": 2,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/voicechat/username-cache.json",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/voicechat/username-cache.json",
             "MD5": "99914b932bd37a50b983c5e7c90ae93b",
             "path": "config/voicechat/username-cache.json"
           }
@@ -1768,7 +1798,7 @@
           "type": "File",
           "artifact": {
             "size": 4994,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/voicechat/voicechat-client.properties",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/voicechat/voicechat-client.properties",
             "MD5": "029da79b9f5284ac53a8e68078cc4889",
             "path": "config/voicechat/voicechat-client.properties"
           }
@@ -1779,7 +1809,7 @@
           "type": "File",
           "artifact": {
             "size": 2441,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/voicechat/voicechat-server.properties",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/voicechat/voicechat-server.properties",
             "MD5": "8abd6abc64c8ccaa2d2d7378bdf5bbe6",
             "path": "config/voicechat/voicechat-server.properties"
           }
@@ -1790,7 +1820,7 @@
           "type": "File",
           "artifact": {
             "size": 94,
-            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/main/servers/HealingServer-1.20.1/files/config/voicechat-client.toml",
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/files/config/voicechat-client.toml",
             "MD5": "2fb2989fe60bf9a60eb6e8946ce4bb12",
             "path": "config/voicechat-client.toml"
           }

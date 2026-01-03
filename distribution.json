@@ -16,9 +16,9 @@
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
-        "shortId": "HealingServer",
-        "largeImageText": "HealingServer 1.20.1",
-        "largeImageKey": "Background"
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
       "mainServer": false,
       "autoconnect": false,
@@ -523,6 +523,16 @@
           }
         },
         {
+          "id": "mezz.jei:jei:15.20.0.129@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1409642,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/jei-1.20.1-forge-15.20.0.129.jar",
+            "MD5": "a5192227a15e0fe0e367828b32c1f472"
+          }
+        },
+        {
           "id": "com.hyfata.najoan.koreanpatch.client:koreanpatch:1.9.5+mc1.20.1@jar",
           "name": "Korean Patch",
           "type": "ForgeMod",
@@ -530,6 +540,16 @@
             "size": 316542,
             "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/koreanpatch-forge-1.9.5+mc1.20.1.jar",
             "MD5": "b7c99a33c48f6ae31de7f7f6038800c2"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.20.1_HD_U_I6@jar",
+          "name": "OptiFine",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7145205,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/OptiFine_1.20.1_HD_U_I6.jar",
+            "MD5": "7a7982ac06b89dd8c1721ea53a33b768"
           }
         },
         {
@@ -550,6 +570,16 @@
             "size": 4892021,
             "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.6.10.jar",
             "MD5": "cd6ce236a50f8a4a0ceeb7d961aef4d0"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:25.3.2@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2128565,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/Xaeros_Minimap_25.3.2_Forge_1.20.jar",
+            "MD5": "9c9832e2b8f9f512384103d95c899e64"
           }
         },
         {
