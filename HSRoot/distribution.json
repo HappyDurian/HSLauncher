@@ -503,6 +503,16 @@
           }
         },
         {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320675,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/embeddium-0.3.31+mc1.20.1.jar",
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+          }
+        },
+        {
           "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.2.9@jar",
           "name": "Farmer's Delight",
           "type": "ForgeMod",
@@ -540,6 +550,26 @@
             "size": 316542,
             "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/koreanpatch-forge-1.9.5+mc1.20.1.jar",
             "MD5": "b7c99a33c48f6ae31de7f7f6038800c2"
+          }
+        },
+        {
+          "id": "net.irisshaders.iris:oculus:1.8.0@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2851119,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/oculus-mc1.20.1-1.8.0.jar",
+            "MD5": "1dd891634ac21591b5a692471f112572"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.20.1_HD_U_I6@jar",
+          "name": "OptiFine",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7145205,
+            "url": "https://raw.githubusercontent.com/HappyDurian/HSLauncher/refs/heads/main/HSRoot/servers/HealingServer-1.20.1/forgemods/required/OptiFine_1.20.1_HD_U_I6.jar",
+            "MD5": "7a7982ac06b89dd8c1721ea53a33b768"
           }
         },
         {
